@@ -1,6 +1,6 @@
 # About Me
 
-👋 Hey everyone, I'm <b>[Mars]([https://bunhere.com](https://www.facebook.com/1995mars/))</b> <br>
+👋 Hey everyone, I'm <b>[Mars](https://www.facebook.com/1995mars/)</b> <br>
 <b>✨Fullstack Web Developer✨</b>
 - <img align="center" src="./images/icon/linkedin.png" title = "Twitter" alt="" height="20" /> [in/1995mars](https://www.linkedin.com/in/1995mars/) 
 - <img align="center" src="./images/icon/mail.webp" title = "Twitter" alt="" height="20" /> tranthanhtung04101995@gmail.com
