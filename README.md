@@ -1,16 +1,11 @@
-### Hi there 👋
+About Me
+👋 Hey everyone, I'm Mars
+✨Fullstack Web Developer✨
 
-<!--
-**1995mars/1995mars** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  in/1995mars
+ Emma Ngo
+ dev.to/loanngo99.
+ emma.ngo1110@gmail.com
+ profile/u/buncode
+🖥️ I'm a full stack developer with a passion for building beautiful, functional, and scalable web applications.
+Well-versed in Front-End development. Good at PHP (Laravel), ReactJs, NextJS, and CSS for web applications.
