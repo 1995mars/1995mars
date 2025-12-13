@@ -19,19 +19,24 @@ Overall, I am a dedicated and passionate Java web developer, committed to delive
 <div style="display: flex; gap: 20px;">
   <div style="flex: 1;">
   
-### Cột trái
-- Item 1  
-- Item 2  
+<table>
+<tr>
+<td>
 
-  </div>
-  <div style="flex: 1;">
-  
-### Cột phải
-- Item A  
-- Item B  
+### Cột 1
+- A
+- B
 
-  </div>
-</div>
+</td>
+<td>
+
+### Cột 2
+- C
+- D
+
+</td>
+</tr>
+</table
 
 ## GitHub Streak Stats
 
