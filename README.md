@@ -26,9 +26,7 @@ Overall, I am a dedicated and passionate Java web developer, committed to delive
 </td>
 <td>
 
-### Cột 2
-- C
-- D
+<img align="center" src="./images/icon/donate.jpg" title = "Donate to me" alt="" height="100" />
 
 </td>
 </tr>
