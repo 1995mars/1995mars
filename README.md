@@ -16,6 +16,23 @@ I am constantly striving to learn and keep up with the latest trends and technol
 
 Overall, I am a dedicated and passionate Java web developer, committed to delivering high-quality solutions that meet or exceed client expectations.
 
+<div style="display: flex; gap: 20px;">
+  <div style="flex: 1;">
+  
+### Cột trái
+- Item 1  
+- Item 2  
+
+  </div>
+  <div style="flex: 1;">
+  
+### Cột phải
+- Item A  
+- Item B  
+
+  </div>
+</div>
+
 ## GitHub Streak Stats
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=1995mars&theme=merko&border_radius=10)](https://git.io/streak-stats) 
