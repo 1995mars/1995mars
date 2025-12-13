@@ -24,10 +24,11 @@ I am constantly striving to learn and keep up with the latest trends and technol
 Overall, I am a dedicated and passionate Java web developer, committed to delivering high-quality solutions that meet or exceed client expectations.
 
 </td>
-<td>
 
-<img align="center" src="./images/icon/donate.jpg" title = "Donate to me" alt="" height="500" />
-Buy Me a Coffee
+<td align="center">
+<img src="./images/icon/donate.jpg" title="Donate to me" alt="" height="500" />
+<br/>
+<b>☕ Buy Me a Coffee</b>
 </td>
 </tr>
 </table
