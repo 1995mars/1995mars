@@ -26,8 +26,8 @@ Overall, I am a dedicated and passionate Java web developer, committed to delive
 </td>
 <td>
 
-<img align="center" src="./images/icon/donate.jpg" title = "Donate to me" alt="" height="100" />
-
+<img align="center" src="./images/icon/donate.jpg" title = "Donate to me" alt="" height="500" />
+Buy Me a Coffee
 </td>
 </tr>
 </table
