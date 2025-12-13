@@ -6,6 +6,13 @@
 - <img align="center" src="./images/icon/mail.webp" title = "Twitter" alt="" height="20" /> tranthanhtung04101995@gmail.com
 
 
+
+
+  
+<table>
+<tr>
+<td>
+
 🖥️ I am a developer with expertise in Java web development. I have a strong foundation in Java and am well-versed in web development frameworks such as Spring, Hibernate. 
 
 My experience includes working on various web projects from design to deployment, which has given me extensive experience in database design, server-side scripting, and front-end development. I have also worked with various databases such as MySQL, Oracle, and MongoDB.
@@ -15,17 +22,6 @@ My skills in Java web development include creating RESTful APIs, building secure
 I am constantly striving to learn and keep up with the latest trends and technologies in Java web development. I enjoy solving complex problems and working on challenging projects that allow me to push my limits and learn something new.
 
 Overall, I am a dedicated and passionate Java web developer, committed to delivering high-quality solutions that meet or exceed client expectations.
-
-<div style="display: flex; gap: 20px;">
-  <div style="flex: 1;">
-  
-<table>
-<tr>
-<td>
-
-### Cột 1
-- A
-- B
 
 </td>
 <td>
