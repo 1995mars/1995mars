@@ -2,7 +2,7 @@
   "login": "1995mars",
   "level": 9,
   "overall": "S",
-  "overallPercentile": 0.9707127665423181,
+  "overallPercentile": 0.9707971784838935,
   "layout": "custom",
   "class": {
     "name": "Illusionist",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 213,
+      "value": 216,
       "rank": "B",
-      "percentile": 0.8273246860379014
+      "percentile": 0.8296156719693993
     },
     {
       "code": "AGI",
@@ -76,7 +76,7 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 213
+      "value": 216
     },
     {
       "id": "unbroken",
@@ -91,12 +91,12 @@
     {
       "id": "early-bird",
       "tier": 1,
-      "value": 19
+      "value": 18
     },
     {
       "id": "weekend-warrior",
       "tier": 0,
-      "value": 17
+      "value": 16
     },
     {
       "id": "gate-opener",
@@ -204,5 +204,5 @@
       "average"
     ]
   },
-  "syncedAt": "2026-10-08T03:22:38.275Z"
+  "syncedAt": "2026-10-08T09:33:51.123Z"
 }
