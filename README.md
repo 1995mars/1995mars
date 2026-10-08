@@ -44,10 +44,9 @@
 <img src="./assets/sec-spotlight.svg" alt="Special Grade — Featured repositories" width="100%" />
 
 <div align="center">
-  <a href="https://github.com/1995mars/Books"><img src="./awaken/spotlight-1-dark.svg" alt="Books" width="49%" /></a>
-  <a href="https://github.com/1995mars/Spring-Framework"><img src="./awaken/spotlight-2-dark.svg" alt="Spring-Framework" width="49%" /></a>
-  <a href="https://github.com/1995mars/OCP-Java-SE-11"><img src="./awaken/spotlight-3-dark.svg" alt="OCP-Java-SE-11" width="49%" /></a>
-  <a href="https://github.com/1995mars/Kafka-Course"><img src="./awaken/spotlight-4-dark.svg" alt="Kafka-Course" width="49%" /></a>
+  <a href="https://github.com/1995mars/Books"><img src="./awaken/spotlight-1-dark.svg" alt="Books" width="28%" /></a>
+  <a href="https://github.com/1995mars/Spring-Framework"><img src="./awaken/spotlight-2-dark.svg" alt="Spring-Framework" width="28%" /></a>
+  <a href="https://github.com/1995mars/OCP-Java-SE-11"><img src="./awaken/spotlight-3-dark.svg" alt="OCP-Java-SE-11" width="28%" /></a>
 </div>
 
 <img src="./assets/sec-domain.svg" alt="Domain Expansion — Activity" width="100%" />
