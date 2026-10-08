@@ -17,8 +17,8 @@
 ✨ <b>Fullstack Web Developer</b> with deep roots in <b>Java</b>, building secure and scalable web applications from design to deployment.<br />
 ☕ Spring Boot · Security · Hibernate  <br />
 🔌 REST APIs · Microservices · Kafka  <br />
-🗄️ MySQL · Oracle · PostgreSQL · MongoDB 
-=> always levelling up
+🗄️ MySQL · Oracle · PostgreSQL · MongoDB <br />
+→ always levelling up
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,hibernate,kafka,mysql,postgres,mongodb,redis,docker,kubernetes,nginx,linux,git,js,ts,react,html,css&theme=dark&perline=18" alt="Java, Spring, Hibernate, Kafka, MySQL, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, Nginx, Linux, Git, JavaScript, TypeScript, React, HTML, CSS" width="78%" />
