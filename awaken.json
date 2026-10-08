@@ -1,0 +1,26 @@
+{
+  "username": "1995mars",
+  "layout": "custom",
+  "widgets": [
+    "hunter",
+    "status",
+    "quest",
+    "daily",
+    "contribution",
+    "combat",
+    "hours",
+    "oracle",
+    "spotlight",
+    "activity",
+    "achievements"
+  ],
+  "theme": "abyssal",
+  "title": "auto",
+  "activity": "arise",
+  "icons": "brand",
+  "motion": "full",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "hours": true,
+  "spotlight": ["Books", "Spring-Framework", "OCP-Java-SE-11", "Kafka-Course"],
+  "readme": null
+}

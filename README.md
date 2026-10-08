@@ -22,7 +22,7 @@
 - 🚀 **Always levelling up** — I enjoy hard problems and projects that push my limits.
 
 <div align="center">
-  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=hunter&theme=abyssal" alt="Hunter license" width="100%" />
+  <img src="./awaken/hunter-dark.svg" alt="Hunter license" width="100%" />
 </div>
 
 <img src="./assets/sec-stack.svg" alt="Cursed Techniques — Tech stack" width="100%" />
@@ -36,22 +36,33 @@
 <img src="./assets/sec-status.svg" alt="Limitless — Status" width="100%" />
 
 <div align="center">
-  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=status&theme=abyssal" alt="Status window" width="100%" />
+  <img src="./awaken/status-dark.svg" alt="Status window" width="100%" />
 </div>
 
 <img src="./assets/sec-missions.svg" alt="Missions" width="100%" />
 
 <div align="center">
-  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=quest&theme=abyssal" alt="Active quest" width="49%" />
-  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=daily&theme=abyssal" alt="Daily quest" width="49%" />
-  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=contribution&theme=abyssal" alt="Contribution log" width="49%" />
-  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=combat&theme=abyssal" alt="Combat record" width="49%" />
+  <img src="./awaken/quest-dark.svg" alt="Active quest" width="49%" />
+  <img src="./awaken/daily-dark.svg" alt="Daily quest" width="49%" />
+  <img src="./awaken/contribution-dark.svg" alt="Contribution log" width="49%" />
+  <img src="./awaken/combat-dark.svg" alt="Combat record" width="49%" />
+  <img src="./awaken/hours-dark.svg" alt="Hunting hours" width="49%" />
+  <img src="./awaken/oracle-dark.svg" alt="Oracle scroll" width="49%" />
+</div>
+
+<img src="./assets/sec-spotlight.svg" alt="Special Grade — Featured repositories" width="100%" />
+
+<div align="center">
+  <a href="https://github.com/1995mars/Books"><img src="./awaken/spotlight-1-dark.svg" alt="Books" width="49%" /></a>
+  <a href="https://github.com/1995mars/Spring-Framework"><img src="./awaken/spotlight-2-dark.svg" alt="Spring-Framework" width="49%" /></a>
+  <a href="https://github.com/1995mars/OCP-Java-SE-11"><img src="./awaken/spotlight-3-dark.svg" alt="OCP-Java-SE-11" width="49%" /></a>
+  <a href="https://github.com/1995mars/Kafka-Course"><img src="./awaken/spotlight-4-dark.svg" alt="Kafka-Course" width="49%" /></a>
 </div>
 
 <img src="./assets/sec-domain.svg" alt="Domain Expansion — Activity" width="100%" />
 
 <div align="center">
-  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=activity&theme=abyssal" alt="Contribution activity" width="100%" />
+  <img src="./awaken/activity-dark.svg" alt="Contribution activity" width="100%" />
   <br /><br />
   <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=1995mars&background=030712&border=1e3a8a&ring=38bdf8&fire=a855f7&currStreakNum=e0f2fe&sideNums=e0f2fe&currStreakLabel=7dd3fc&sideLabels=7dd3fc&dates=64748b&stroke=1e3a8a&border_radius=8" alt="GitHub streak" /></a>
 </div>
@@ -60,7 +71,7 @@
 <summary><b>🏆 Achievements</b></summary>
 <br />
 <div align="center">
-  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=achievements&theme=abyssal" alt="Achievements" width="100%" />
+  <img src="./awaken/achievements-dark.svg" alt="Achievements" width="100%" />
 </div>
 </details>
 

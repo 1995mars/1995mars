@@ -115,7 +115,7 @@ const header = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.
   <circle cx="104" cy="150" r="56" fill="none" stroke="#1d4ed8" stroke-width="3"/>
   <circle class="avr" cx="104" cy="150" r="61" fill="none" stroke="#7dd3fc" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="120 60 30 173.3" filter="url(#glow)"/>
 
-  <text x="188" y="72" font-family="${MONO}" font-size="11" letter-spacing="3" fill="#38bdf8">[ SPECIAL GRADE · 特級 ]</text>
+  <text x="188" y="72" font-family="${MONO}" font-size="11" letter-spacing="3" fill="#38bdf8">[ SPECIAL GRADE SORCERER ]</text>
   <text x="186" y="130" font-family="${SANS}" font-size="52" font-weight="800" fill="url(#name)" letter-spacing="1">Mars</text>
   <text x="338" y="130" font-family="${MONO}" font-size="14" fill="#64748b">@1995mars</text>
   <text x="188" y="160" font-family="${SANS}" font-size="19" font-weight="600" fill="#7dd3fc">Fullstack Web Developer</text>
@@ -127,8 +127,8 @@ const header = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.
     <rect x="476" y="202" width="56" height="20" rx="3" fill="#0b1c4d" fill-opacity=".7" stroke="#1d4ed8" stroke-opacity=".8"/><text x="504" y="216" text-anchor="middle" fill="#bae6fd">Kafka</text>
   </g>
 
-  <text x="812" y="34" text-anchor="end" font-family="${SANS}" font-size="15" font-style="italic" font-weight="700" letter-spacing="3" fill="#7dd3fc" opacity=".9">THE STRONGEST <tspan font-style="normal" fill="#e0f2fe">最強</tspan></text>
-  <text x="812" y="296" text-anchor="end" font-family="${SANS}" font-size="13" letter-spacing="4" fill="#a78bfa" opacity=".85">無下限呪術 · LIMITLESS</text>
+  <text x="812" y="34" text-anchor="end" font-family="${SANS}" font-size="15" font-style="italic" font-weight="700" letter-spacing="3" fill="#7dd3fc" opacity=".9">THE STRONGEST</text>
+  <text x="812" y="296" text-anchor="end" font-family="${SANS}" font-size="13" letter-spacing="4" fill="#a78bfa" opacity=".85">LIMITLESS · INFINITY ∞</text>
 
   <!-- terminal line -->
   <path d="M40 250H560" stroke="#1e3a8a" stroke-width="1"/>
@@ -143,8 +143,8 @@ const header = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.
 fs.writeFileSync(path.join(outDir, 'header.svg'), header);
 
 /* ───────────────────────── section titles ───────────────────────── */
-function section(file, kanji, title, sub) {
-  const kw = 26 + kanji.length * 22;
+function section(file, no, title, sub) {
+  const kw = 58;
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="840" height="60" viewBox="0 0 840 60" role="img" aria-label="${title}">
 <defs>
   <linearGradient id="l" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset=".6" stop-color="#6366f1"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></linearGradient>
@@ -160,7 +160,7 @@ function section(file, kanji, title, sub) {
   @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
 <path d="M8 8H${kw - 4}L${kw + 4} 16V44H16L8 36Z" fill="url(#k)" stroke="#38bdf8" stroke-width="1.2" filter="url(#g)"/>
-<text x="${(kw + 12) / 2}" y="34" text-anchor="middle" font-family="${SANS}" font-size="19" font-weight="700" fill="#e0f2fe">${kanji}</text>
+<text x="${(kw + 12) / 2}" y="34" text-anchor="middle" font-family="${MONO}" font-size="18" font-weight="700" fill="#7dd3fc">${no}</text>
 <text x="${kw + 20}" y="27" font-family="${SANS}" font-size="20" font-weight="800" letter-spacing="3" fill="#e0f2fe">${title}</text>
 <text x="${kw + 20}" y="44" font-family="${MONO}" font-size="11" letter-spacing="1.5" fill="#64748b">${sub}</text>
 <rect x="8" y="54" width="824" height="1.5" fill="url(#l)"/>
@@ -171,11 +171,12 @@ function section(file, kanji, title, sub) {
 `;
   fs.writeFileSync(path.join(outDir, file), svg);
 }
-section('sec-about.svg', '六眼', 'SIX EYES', '// about me — seeing the whole system at once');
-section('sec-status.svg', '無下限', 'LIMITLESS', '// hunter license &amp; status window');
-section('sec-stack.svg', '術式', 'CURSED TECHNIQUES', '// the tech stack I fight with');
-section('sec-missions.svg', '任務', 'MISSIONS', '// active quest, daily clears &amp; combat record');
-section('sec-domain.svg', '領域展開', 'DOMAIN EXPANSION', '// a year of contributions inside the void');
+section('sec-about.svg', '01', 'SIX EYES', '// about me — seeing the whole system at once');
+section('sec-stack.svg', '02', 'CURSED TECHNIQUES', '// the tech stack I fight with');
+section('sec-status.svg', '03', 'LIMITLESS', '// hunter license &amp; status window');
+section('sec-missions.svg', '04', 'MISSIONS', '// active quest, daily clears &amp; combat record');
+section('sec-spotlight.svg', '05', 'SPECIAL GRADE', '// featured repositories');
+section('sec-domain.svg', '06', 'DOMAIN EXPANSION', '// a year of contributions inside the void');
 
 /* ───────────────────────── footer: hollow purple ───────────────────────── */
 seed = 410;
@@ -212,9 +213,9 @@ const footer = `<svg xmlns="http://www.w3.org/2000/svg" width="840" height="170"
   <circle class="r" cx="170" cy="66" r="30" fill="url(#red)"/>
   <circle class="b" cx="670" cy="66" r="30" fill="url(#blue)"/>
   <circle class="p" cx="420" cy="66" r="46" fill="url(#pur)"/>
-  <text x="60" y="34" font-family="${MONO}" font-size="11" letter-spacing="2" fill="#f87171">術式反転「赫」 REVERSAL: RED</text>
-  <text x="780" y="34" text-anchor="end" font-family="${MONO}" font-size="11" letter-spacing="2" fill="#7dd3fc">術式順転「蒼」 LAPSE: BLUE</text>
-  <text x="420" y="132" text-anchor="middle" font-family="${SANS}" font-size="17" font-weight="800" letter-spacing="6" fill="#e9d5ff">虚式「茈」 · HOLLOW PURPLE</text>
+  <text x="60" y="34" font-family="${MONO}" font-size="11" letter-spacing="2" fill="#f87171">CURSED TECHNIQUE REVERSAL: RED</text>
+  <text x="780" y="34" text-anchor="end" font-family="${MONO}" font-size="11" letter-spacing="2" fill="#7dd3fc">CURSED TECHNIQUE LAPSE: BLUE</text>
+  <text x="420" y="132" text-anchor="middle" font-family="${SANS}" font-size="17" font-weight="800" letter-spacing="6" fill="#e9d5ff">HOLLOW PURPLE</text>
   <text x="420" y="152" text-anchor="middle" font-family="${MONO}" font-size="11" letter-spacing="2" fill="#94a3b8">thanks for visiting — stay limitless ∞</text>
 </g>
 <path d="M18 .75H822L839.25 18V152L822 169.25H18L.75 152V18Z" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
