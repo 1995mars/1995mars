@@ -31,10 +31,10 @@
   <circle class="r" cx="170" cy="38" r="20" fill="url(#red)"/>
   <circle class="b" cx="670" cy="38" r="20" fill="url(#blue)"/>
   <circle class="p" cx="420" cy="38" r="30" fill="url(#pur)"/>
-  <text x="24" y="22" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="9" letter-spacing="1.5" fill="#f87171">REVERSAL: RED</text>
-  <text x="816" y="22" text-anchor="end" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="9" letter-spacing="1.5" fill="#7dd3fc">LAPSE: BLUE</text>
-  <text x="420" y="74" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="12.5" font-weight="800" letter-spacing="5" fill="#e9d5ff">HOLLOW PURPLE</text>
-  <text x="420" y="88" text-anchor="middle" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="9" letter-spacing="1.5" fill="#94a3b8">thanks for visiting — stay limitless ∞</text>
+  <text x="24" y="22" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="10.5" letter-spacing="1.5" fill="#f87171">REVERSAL: RED</text>
+  <text x="816" y="22" text-anchor="end" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="10.5" letter-spacing="1.5" fill="#7dd3fc">LAPSE: BLUE</text>
+  <text x="420" y="73" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="14.5" font-weight="800" letter-spacing="5" fill="#e9d5ff">HOLLOW PURPLE</text>
+  <text x="420" y="89" text-anchor="middle" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="10.5" letter-spacing="1.5" fill="#94a3b8">thanks for visiting — stay limitless ∞</text>
 </g>
 <path d="M14 .75H826L839.25 14V82L826 95.25H14L.75 82V14Z" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
 </svg>
