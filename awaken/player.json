@@ -1,8 +1,8 @@
 {
   "login": "1995mars",
-  "level": 8,
+  "level": 9,
   "overall": "S",
-  "overallPercentile": 0.9701002900204717,
+  "overallPercentile": 0.9704311717656319,
   "layout": "custom",
   "class": {
     "name": "Illusionist",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 195,
+      "value": 206,
       "rank": "B",
-      "percentile": 0.8124230952401742
+      "percentile": 0.8217738137125628
     },
     {
       "code": "AGI",
@@ -48,7 +48,15 @@
       "percentile": 0.9881007576720311
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "kind": "level",
+      "subject": "Level",
+      "from": "8",
+      "to": "9",
+      "at": "2026-10-08T02:54:31.457Z"
+    }
+  ],
   "achievements": [
     {
       "id": "pull-shark",
@@ -68,7 +76,7 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 195
+      "value": 206
     },
     {
       "id": "unbroken",
@@ -82,8 +90,8 @@
     },
     {
       "id": "early-bird",
-      "tier": 2,
-      "value": 27
+      "tier": 1,
+      "value": 21
     },
     {
       "id": "weekend-warrior",
@@ -196,5 +204,5 @@
       "average"
     ]
   },
-  "syncedAt": "2026-10-08T02:17:22.063Z"
+  "syncedAt": "2026-10-08T02:54:31.457Z"
 }
