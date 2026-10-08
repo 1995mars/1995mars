@@ -115,6 +115,52 @@ const header = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.
 `;
 fs.writeFileSync(path.join(dir, 'header.svg'), header);
 
+/* ───────────────────────── typing strip under the header ───────────────────────── */
+const LINES = [
+  'Fullstack Web Developer · Java at heart',
+  'Spring Boot · Security · Kafka · Microservices',
+  'Code → Build → Improve → Repeat',
+  "Nah, I'd refactor.",
+];
+const TH = 40, CW = 9.2, SLOT = 6; // char advance at 15px mono, seconds per line
+const TOTAL = LINES.length * SLOT;
+const pc = (t) => `${+((t / TOTAL) * 100).toFixed(3)}%`;
+let typingCss = '', typingBody = '';
+LINES.forEach((line, i) => {
+  const n = line.length, w = +(n * CW).toFixed(1);
+  const x = +((W - w - 2 * CW) / 2 + 2 * CW).toFixed(1); // centre the line together with its prompt
+  const t0 = i * SLOT, typed = t0 + SLOT * 0.36, hold = t0 + SLOT * 0.8, gone = t0 + SLOT * 0.96, end = t0 + SLOT;
+  const move = (prop, from, to) => `${t0 ? `0%{${prop}:${from}}` : ''}${pc(t0)}{${prop}:${from};animation-timing-function:steps(${n},end)}${pc(typed)}{${prop}:${to}}${pc(hold)}{${prop}:${to};animation-timing-function:steps(${n},end)}${pc(gone)},100%{${prop}:${from}}`;
+  typingCss += `
+  .v${i}{animation:v${i} ${TOTAL}s step-end infinite}
+  @keyframes v${i}{${t0 ? `0%{opacity:0}` : ''}${pc(t0)}{opacity:1}${end < TOTAL ? `${pc(end)}{opacity:0}` : ''}100%{opacity:${end < TOTAL ? 0 : 1}}}
+  .c${i}{animation:c${i} ${TOTAL}s linear infinite;transform-box:fill-box;transform-origin:left center}
+  @keyframes c${i}{${move('transform', 'scaleX(0)', 'scaleX(1)')}}
+  .k${i}{animation:k${i} ${TOTAL}s linear infinite}
+  @keyframes k${i}{${move('transform', 'translateX(0)', `translateX(${w}px)`)}}`;
+  typingBody += `
+<clipPath id="t${i}"><rect class="c${i}" x="${x}" y="8" width="${w}" height="24"/></clipPath>
+<g class="v${i}"${i ? ' opacity="0"' : ''}>
+  <text x="${+(x - 2 * CW).toFixed(1)}" y="25" font-family="${MONO}" font-size="15" font-weight="700" fill="#38bdf8">&gt;</text>
+  <g clip-path="url(#t${i})"><text x="${x}" y="25" textLength="${w}" lengthAdjust="spacingAndGlyphs" font-family="${MONO}" font-size="15" fill="#e0f2fe">${line}</text></g>
+  <g class="k${i}"><rect class="cur" x="${x + 2}" y="11" width="8" height="18" fill="#7dd3fc"/></g>
+</g>`;
+});
+const typing = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${TH}" viewBox="0 0 ${W} ${TH}" role="img" aria-label="${LINES.join(' — ')}">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#02040f"/><stop offset=".5" stop-color="#070d2b"/><stop offset="1" stop-color="#0a0524"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#1e3a8a"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+</defs>
+<style>
+  .cur{animation:cur 1s step-end infinite}
+  @keyframes cur{50%{opacity:0}}${typingCss}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}.cur{opacity:0}}
+</style>
+<path d="M10 .75H${W - 10}L${W - .75} 10V${TH - 10}L${W - 10} ${TH - .75}H10L.75 ${TH - 10}V10Z" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.5"/>${typingBody}
+</svg>
+`;
+fs.writeFileSync(path.join(dir, 'typing.svg'), typing);
+
 /* ───────────────────────── section titles ───────────────────────── */
 function section(file, no, title, sub) {
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="840" height="44" viewBox="0 0 840 44" role="img" aria-label="${title}">

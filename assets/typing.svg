@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="40" viewBox="0 0 840 40" role="img" aria-label="Fullstack Web Developer · Java at heart — Spring Boot · Security · Kafka · Microservices — Code → Build → Improve → Repeat — Nah, I'd refactor.">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#02040f"/><stop offset=".5" stop-color="#070d2b"/><stop offset="1" stop-color="#0a0524"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#1e3a8a"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+</defs>
+<style>
+  .cur{animation:cur 1s step-end infinite}
+  @keyframes cur{50%{opacity:0}}
+  .v0{animation:v0 24s step-end infinite}
+  @keyframes v0{0%{opacity:1}25%{opacity:0}100%{opacity:0}}
+  .c0{animation:c0 24s linear infinite;transform-box:fill-box;transform-origin:left center}
+  @keyframes c0{0%{transform:scaleX(0);animation-timing-function:steps(39,end)}9%{transform:scaleX(1)}20%{transform:scaleX(1);animation-timing-function:steps(39,end)}24%,100%{transform:scaleX(0)}}
+  .k0{animation:k0 24s linear infinite}
+  @keyframes k0{0%{transform:translateX(0);animation-timing-function:steps(39,end)}9%{transform:translateX(358.8px)}20%{transform:translateX(358.8px);animation-timing-function:steps(39,end)}24%,100%{transform:translateX(0)}}
+  .v1{animation:v1 24s step-end infinite}
+  @keyframes v1{0%{opacity:0}25%{opacity:1}50%{opacity:0}100%{opacity:0}}
+  .c1{animation:c1 24s linear infinite;transform-box:fill-box;transform-origin:left center}
+  @keyframes c1{0%{transform:scaleX(0)}25%{transform:scaleX(0);animation-timing-function:steps(46,end)}34%{transform:scaleX(1)}45%{transform:scaleX(1);animation-timing-function:steps(46,end)}49%,100%{transform:scaleX(0)}}
+  .k1{animation:k1 24s linear infinite}
+  @keyframes k1{0%{transform:translateX(0)}25%{transform:translateX(0);animation-timing-function:steps(46,end)}34%{transform:translateX(423.2px)}45%{transform:translateX(423.2px);animation-timing-function:steps(46,end)}49%,100%{transform:translateX(0)}}
+  .v2{animation:v2 24s step-end infinite}
+  @keyframes v2{0%{opacity:0}50%{opacity:1}75%{opacity:0}100%{opacity:0}}
+  .c2{animation:c2 24s linear infinite;transform-box:fill-box;transform-origin:left center}
+  @keyframes c2{0%{transform:scaleX(0)}50%{transform:scaleX(0);animation-timing-function:steps(31,end)}59%{transform:scaleX(1)}70%{transform:scaleX(1);animation-timing-function:steps(31,end)}74%,100%{transform:scaleX(0)}}
+  .k2{animation:k2 24s linear infinite}
+  @keyframes k2{0%{transform:translateX(0)}50%{transform:translateX(0);animation-timing-function:steps(31,end)}59%{transform:translateX(285.2px)}70%{transform:translateX(285.2px);animation-timing-function:steps(31,end)}74%,100%{transform:translateX(0)}}
+  .v3{animation:v3 24s step-end infinite}
+  @keyframes v3{0%{opacity:0}75%{opacity:1}100%{opacity:1}}
+  .c3{animation:c3 24s linear infinite;transform-box:fill-box;transform-origin:left center}
+  @keyframes c3{0%{transform:scaleX(0)}75%{transform:scaleX(0);animation-timing-function:steps(18,end)}84%{transform:scaleX(1)}95%{transform:scaleX(1);animation-timing-function:steps(18,end)}99%,100%{transform:scaleX(0)}}
+  .k3{animation:k3 24s linear infinite}
+  @keyframes k3{0%{transform:translateX(0)}75%{transform:translateX(0);animation-timing-function:steps(18,end)}84%{transform:translateX(165.6px)}95%{transform:translateX(165.6px);animation-timing-function:steps(18,end)}99%,100%{transform:translateX(0)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}.cur{opacity:0}}
+</style>
+<path d="M10 .75H830L839.25 10V30L830 39.25H10L.75 30V10Z" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.5"/>
+<clipPath id="t0"><rect class="c0" x="249.8" y="8" width="358.8" height="24"/></clipPath>
+<g class="v0">
+  <text x="231.4" y="25" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="700" fill="#38bdf8">&gt;</text>
+  <g clip-path="url(#t0)"><text x="249.8" y="25" textLength="358.8" lengthAdjust="spacingAndGlyphs" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" fill="#e0f2fe">Fullstack Web Developer · Java at heart</text></g>
+  <g class="k0"><rect class="cur" x="251.8" y="11" width="8" height="18" fill="#7dd3fc"/></g>
+</g>
+<clipPath id="t1"><rect class="c1" x="217.6" y="8" width="423.2" height="24"/></clipPath>
+<g class="v1" opacity="0">
+  <text x="199.2" y="25" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="700" fill="#38bdf8">&gt;</text>
+  <g clip-path="url(#t1)"><text x="217.6" y="25" textLength="423.2" lengthAdjust="spacingAndGlyphs" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" fill="#e0f2fe">Spring Boot · Security · Kafka · Microservices</text></g>
+  <g class="k1"><rect class="cur" x="219.6" y="11" width="8" height="18" fill="#7dd3fc"/></g>
+</g>
+<clipPath id="t2"><rect class="c2" x="286.6" y="8" width="285.2" height="24"/></clipPath>
+<g class="v2" opacity="0">
+  <text x="268.2" y="25" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="700" fill="#38bdf8">&gt;</text>
+  <g clip-path="url(#t2)"><text x="286.6" y="25" textLength="285.2" lengthAdjust="spacingAndGlyphs" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" fill="#e0f2fe">Code → Build → Improve → Repeat</text></g>
+  <g class="k2"><rect class="cur" x="288.6" y="11" width="8" height="18" fill="#7dd3fc"/></g>
+</g>
+<clipPath id="t3"><rect class="c3" x="346.4" y="8" width="165.6" height="24"/></clipPath>
+<g class="v3" opacity="0">
+  <text x="328" y="25" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" font-weight="700" fill="#38bdf8">&gt;</text>
+  <g clip-path="url(#t3)"><text x="346.4" y="25" textLength="165.6" lengthAdjust="spacingAndGlyphs" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" fill="#e0f2fe">Nah, I'd refactor.</text></g>
+  <g class="k3"><rect class="cur" x="348.4" y="11" width="8" height="18" fill="#7dd3fc"/></g>
+</g>
+</svg>
