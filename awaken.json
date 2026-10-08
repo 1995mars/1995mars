@@ -9,7 +9,6 @@
     "combat",
     "hours",
     "oracle",
-    "spotlight",
     "activity",
     "achievements"
   ],
@@ -20,6 +19,5 @@
   "motion": "full",
   "timezone": "Asia/Ho_Chi_Minh",
   "hours": true,
-  "spotlight": ["Books", "Spring-Framework", "OCP-Java-SE-11", "Kafka-Course"],
   "readme": null
 }

@@ -11,6 +11,8 @@
 
 </div>
 
+<br />
+
 <img src="./assets/sec-about.svg" alt="Six Eyes — About me" width="100%" />
 
 👋 Hey, I'm <b><a href="https://www.facebook.com/1995mars/">Mars</a></b> <br />
@@ -24,33 +26,41 @@
   <img src="https://skillicons.dev/icons?i=java,spring,hibernate,kafka,mysql,postgres,mongodb,redis,docker,kubernetes,nginx,linux,git,js,ts,react,html,css&theme=dark&perline=18" alt="Java, Spring, Hibernate, Kafka, MySQL, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, Nginx, Linux, Git, JavaScript, TypeScript, React, HTML, CSS" width="78%" />
 </div>
 
+<br />
+
 <img src="./assets/sec-status.svg" alt="Limitless — Status window" width="100%" />
 
 <div align="center">
   <img src="./awaken/status-dark.svg" alt="Status window" width="85%" />
 </div>
 
+<br />
+
 <img src="./assets/sec-missions.svg" alt="Missions" width="100%" />
 
 <div align="center">
-  <img src="./awaken/quest-dark.svg" alt="Active quest" width="28%" />
-  <img src="./awaken/daily-dark.svg" alt="Daily quest" width="28%" />
-  <img src="./awaken/contribution-dark.svg" alt="Contribution log" width="28%" />
-  <img src="./awaken/combat-dark.svg" alt="Combat record" width="28%" />
-  <img src="./awaken/hours-dark.svg" alt="Hunting hours" width="28%" />
-  <img src="./awaken/oracle-dark.svg" alt="Oracle scroll" width="28%" />
+  <img src="./awaken/quest-dark.svg" alt="Active quest" width="32.5%" />
+  <img src="./awaken/daily-dark.svg" alt="Daily quest" width="32.5%" />
+  <img src="./awaken/contribution-dark.svg" alt="Contribution log" width="32.5%" />
+  <img src="./awaken/combat-dark.svg" alt="Combat record" width="32.5%" />
+  <img src="./awaken/hours-dark.svg" alt="Hunting hours" width="32.5%" />
+  <img src="./awaken/oracle-dark.svg" alt="Oracle scroll" width="32.5%" />
 </div>
+
+<br />
 
 <img src="./assets/sec-spotlight.svg" alt="Special Grade — Featured repositories" width="100%" />
 
 <div align="center">
-  <a href="https://github.com/1995mars/Books"><img src="./awaken/spotlight-1-dark.svg" alt="Books" width="32.5%" /></a>
-  <a href="https://github.com/1995mars/Spring-Framework"><img src="./awaken/spotlight-2-dark.svg" alt="Spring-Framework" width="32.5%" /></a>
-  <a href="https://github.com/1995mars/OCP-Java-SE-11"><img src="./awaken/spotlight-3-dark.svg" alt="OCP-Java-SE-11" width="32.5%" /></a>
-  <a href="https://github.com/1995mars/Kafka-Course"><img src="./awaken/spotlight-4-dark.svg" alt="Kafka-Course" width="32.5%" /></a>
-  <a href="https://github.com/1995mars/Microservices"><img src="./awaken/more/spotlight-1-dark.svg" alt="Microservices" width="32.5%" /></a>
-  <a href="https://github.com/1995mars/Spring-security-6"><img src="./awaken/more/spotlight-2-dark.svg" alt="Spring-security-6" width="32.5%" /></a>
+  <a href="https://github.com/1995mars/Books"><img src="./assets/spot-1.svg" alt="Books" width="32.5%" /></a>
+  <a href="https://github.com/1995mars/Spring-Framework"><img src="./assets/spot-2.svg" alt="Spring-Framework" width="32.5%" /></a>
+  <a href="https://github.com/1995mars/OCP-Java-SE-11"><img src="./assets/spot-3.svg" alt="OCP-Java-SE-11" width="32.5%" /></a>
+  <a href="https://github.com/1995mars/Kafka-Course"><img src="./assets/spot-4.svg" alt="Kafka-Course" width="32.5%" /></a>
+  <a href="https://github.com/1995mars/Microservices"><img src="./assets/spot-5.svg" alt="Microservices" width="32.5%" /></a>
+  <a href="https://github.com/1995mars/Spring-security-6"><img src="./assets/spot-6.svg" alt="Spring-security-6" width="32.5%" /></a>
 </div>
+
+<br />
 
 <img src="./assets/sec-domain.svg" alt="Domain Expansion — Activity" width="100%" />
 
@@ -61,6 +71,8 @@
 <div align="center">
   <img src="./awaken/achievements-dark.svg" alt="Achievements" width="85%" />
 </div>
+
+<br />
 
 <img src="./assets/sec-coffee.svg" alt="Reverse Cursed Technique — Buy me a coffee" width="100%" />
 

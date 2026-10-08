@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [awaken.json, awaken-spotlight.json]
+    paths: [awaken.json, assets/spotlight.js]
 
 permissions:
   contents: write
@@ -22,7 +22,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: billtruong003/git-profile-awaken@main
-      # The spotlight widget draws at most four cards per run; a second pass adds two more.
-      - uses: billtruong003/git-profile-awaken@main
-        with:
-          config: awaken-spotlight.json
+      - name: Refresh spotlight cards
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          node assets/spotlight.js
+          git add -- assets/spot-*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(spotlight): refresh repository cards [skip ci]"
+            git push
+          fi

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="184" viewBox="0 0 420 184" role="img" aria-label="1995mars/Spring-Framework">
+<style>
+  .br{animation:br 3.2s ease-in-out infinite}
+  @keyframes br{0%,100%{opacity:.45}50%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<path d="M18 4H416V166L402 180H4V18Z" fill="#06121f"/>
+<path d="M18.4 4.8H415.3V165.6L401.6 179.3H4.8V18.4Z" fill="none" stroke="#5a6b7d" stroke-width="1.5"/>
+<path class="br" d="M405 1H419V15M1 169V183H15" fill="none" stroke="#00b4d8" stroke-width="2"/>
+<text x="22" y="36" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="700" letter-spacing="2" fill="#00b4d8">[ SPOTLIGHT ]</text>
+<text x="398" y="37" text-anchor="end" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="20" font-weight="700" fill="#ffc53d">★ 23</text>
+<text x="22" y="84" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="700" fill="#e2ecf6">Spring-Framework</text>
+
+<circle cx="28" cy="153" r="5.5" fill="#563d7c"/><text x="42" y="159" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="600" fill="#c2d1e0">CSS</text>
+<text x="398" y="159" text-anchor="end" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="15" fill="#8ea6bf">8 forks · 2023-07-29</text>
+</svg>
