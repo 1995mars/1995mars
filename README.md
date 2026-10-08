@@ -37,12 +37,12 @@
 <img src="./assets/sec-missions.svg" alt="Missions" width="100%" />
 
 <div align="center">
-  <img src="./awaken/quest-dark.svg" alt="Active quest" width="32.5%" />
-  <img src="./awaken/daily-dark.svg" alt="Daily quest" width="32.5%" />
-  <img src="./awaken/contribution-dark.svg" alt="Contribution log" width="32.5%" />
-  <img src="./awaken/combat-dark.svg" alt="Combat record" width="32.5%" />
-  <img src="./awaken/hours-dark.svg" alt="Hunting hours" width="32.5%" />
-  <img src="./awaken/oracle-dark.svg" alt="Oracle scroll" width="32.5%" />
+  <img src="./awaken/quest-dark.svg" alt="Active quest" width="28%" />
+  <img src="./awaken/daily-dark.svg" alt="Daily quest" width="28%" />
+  <img src="./awaken/contribution-dark.svg" alt="Contribution log" width="28%" />
+  <img src="./awaken/combat-dark.svg" alt="Combat record" width="28%" />
+  <img src="./awaken/hours-dark.svg" alt="Hunting hours" width="28%" />
+  <img src="./awaken/oracle-dark.svg" alt="Oracle scroll" width="28%" />
 </div>
 
 <img src="./assets/sec-spotlight.svg" alt="Special Grade — Featured repositories" width="100%" />
