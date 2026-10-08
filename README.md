@@ -44,22 +44,22 @@
 <img src="./assets/sec-spotlight.svg" alt="Special Grade — Featured repositories" width="100%" />
 
 <div align="center">
-  <a href="https://github.com/1995mars/Books"><img src="./awaken/spotlight-1-dark.svg" alt="Books" width="32.5%" /></a>
-  <a href="https://github.com/1995mars/Spring-Framework"><img src="./awaken/spotlight-2-dark.svg" alt="Spring-Framework" width="32.5%" /></a>
-  <a href="https://github.com/1995mars/OCP-Java-SE-11"><img src="./awaken/spotlight-3-dark.svg" alt="OCP-Java-SE-11" width="32.5%" /></a>
-  <a href="https://github.com/1995mars/Kafka-Course"><img src="./awaken/spotlight-4-dark.svg" alt="Kafka-Course" width="32.5%" /></a>
-  <a href="https://github.com/1995mars/Microservices"><img src="./awaken/more/spotlight-1-dark.svg" alt="Microservices" width="32.5%" /></a>
-  <a href="https://github.com/1995mars/Spring-security-6"><img src="./awaken/more/spotlight-2-dark.svg" alt="Spring-security-6" width="32.5%" /></a>
+  <a href="https://github.com/1995mars/Books"><img src="./awaken/spotlight-1-dark.svg" alt="Books" width="49%" /></a>
+  <a href="https://github.com/1995mars/Spring-Framework"><img src="./awaken/spotlight-2-dark.svg" alt="Spring-Framework" width="49%" /></a>
+  <a href="https://github.com/1995mars/OCP-Java-SE-11"><img src="./awaken/spotlight-3-dark.svg" alt="OCP-Java-SE-11" width="49%" /></a>
+  <a href="https://github.com/1995mars/Kafka-Course"><img src="./awaken/spotlight-4-dark.svg" alt="Kafka-Course" width="49%" /></a>
+  <a href="https://github.com/1995mars/Microservices"><img src="./awaken/more/spotlight-1-dark.svg" alt="Microservices" width="49%" /></a>
+  <a href="https://github.com/1995mars/Spring-security-6"><img src="./awaken/more/spotlight-2-dark.svg" alt="Spring-security-6" width="49%" /></a>
 </div>
 
 <img src="./assets/sec-domain.svg" alt="Domain Expansion — Activity" width="100%" />
 
 <div align="center">
-  <img src="./awaken/activity-dark.svg" alt="Shadow extraction" width="85%" />
+  <img src="./awaken/activity-dark.svg" alt="Shadow extraction" width="100%" />
 </div>
 
 <div align="center">
-  <img src="./awaken/achievements-dark.svg" alt="Achievements" width="85%" />
+  <img src="./awaken/achievements-dark.svg" alt="Achievements" width="100%" />
 </div>
 
 <img src="./assets/sec-coffee.svg" alt="Reverse Cursed Technique — Buy me a coffee" width="100%" />
