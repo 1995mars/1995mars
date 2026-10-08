@@ -55,12 +55,9 @@
   <img src="./awaken/activity-dark.svg" alt="Shadow extraction" width="85%" />
 </div>
 
-<details>
-<summary><b>🏆 Achievements</b></summary>
 <div align="center">
   <img src="./awaken/achievements-dark.svg" alt="Achievements" width="85%" />
 </div>
-</details>
 
 <img src="./assets/sec-coffee.svg" alt="Reverse Cursed Technique — Buy me a coffee" width="100%" />
 
