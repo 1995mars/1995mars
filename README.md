@@ -14,9 +14,10 @@
 <img src="./assets/sec-about.svg" alt="Six Eyes — About me" width="100%" />
 
 👋 Hey, I'm <b><a href="https://www.facebook.com/1995mars/">Mars</a></b> <br />
-✨ <b>Fullstack Web Developer</b> <br />
-✨ with deep roots in <b>Java</b>, building secure and scalable web applications from design to deployment.<br />
-☕ Spring Boot · Security · Hibernate &nbsp;|&nbsp; 🔌 REST APIs · Microservices · Kafka &nbsp;|&nbsp; 🗄️ MySQL · Oracle · PostgreSQL · MongoDB &nbsp;|&nbsp; 🚀 always levelling up
+✨ <b>Fullstack Web Developer</b> with deep roots in <b>Java</b>, building secure and scalable web applications from design to deployment.<br />
+☕ Spring Boot · Security · Hibernate &nbsp;|&nbsp; <br />
+🔌 REST APIs · Microservices · Kafka &nbsp;|&nbsp; <br />
+🗄️ MySQL · Oracle · PostgreSQL · MongoDB &nbsp;|&nbsp; 🚀 always levelling up
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,hibernate,kafka,mysql,postgres,mongodb,redis,docker,kubernetes,nginx,linux,git,js,ts,react,html,css&theme=dark&perline=18" alt="Java, Spring, Hibernate, Kafka, MySQL, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, Nginx, Linux, Git, JavaScript, TypeScript, React, HTML, CSS" width="78%" />
