@@ -24,11 +24,7 @@
   <img src="https://skillicons.dev/icons?i=java,spring,hibernate,kafka,mysql,postgres,mongodb,redis,docker,kubernetes,nginx,linux,git,js,ts,react,html,css&theme=dark&perline=18" alt="Java, Spring, Hibernate, Kafka, MySQL, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, Nginx, Linux, Git, JavaScript, TypeScript, React, HTML, CSS" width="78%" />
 </div>
 
-<img src="./assets/sec-status.svg" alt="Limitless — Hunter license" width="100%" />
-
-<div align="center">
-  <img src="./awaken/hunter-dark.svg" alt="Hunter license" width="85%" />
-</div>
+<img src="./assets/sec-status.svg" alt="Limitless — Status window" width="100%" />
 
 <div align="center">
   <img src="./awaken/status-dark.svg" alt="Status window" width="85%" />

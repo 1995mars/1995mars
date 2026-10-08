@@ -14,7 +14,7 @@
 <path d="M6 6H38L45 13V33H13L6 26Z" fill="url(#k)" stroke="#38bdf8" stroke-width="1"/>
 <text x="25.5" y="24.5" text-anchor="middle" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="14" font-weight="700" fill="#7dd3fc">02</text>
 <text x="58" y="25.5" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="800" letter-spacing="2.5" fill="#e0f2fe">LIMITLESS</text>
-<text x="798" y="24" text-anchor="end" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="11.5" letter-spacing="1" fill="#7c8aa3">// hunter license</text>
+<text x="798" y="24" text-anchor="end" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="11.5" letter-spacing="1" fill="#7c8aa3">// status window</text>
 <rect x="6" y="39" width="828" height="1.2" fill="url(#l)"/>
 <rect class="sw" x="6" y="38" width="120" height="3" fill="url(#s)"/>
 <g class="bl"><path d="M822 13l7 7-7 7-7-7Z" fill="none" stroke="#7dd3fc" stroke-width="1.2"/><circle cx="822" cy="20" r="1.6" fill="#7dd3fc"/></g>

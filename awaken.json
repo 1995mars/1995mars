@@ -2,7 +2,6 @@
   "username": "1995mars",
   "layout": "custom",
   "widgets": [
-    "hunter",
     "status",
     "quest",
     "daily",

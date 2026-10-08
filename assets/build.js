@@ -142,7 +142,7 @@ function section(file, no, title, sub) {
   fs.writeFileSync(path.join(dir, file), svg);
 }
 section('sec-about.svg', '01', 'SIX EYES', '// about me &amp; tech stack');
-section('sec-status.svg', '02', 'LIMITLESS', '// hunter license');
+section('sec-status.svg', '02', 'LIMITLESS', '// status window');
 section('sec-missions.svg', '03', 'MISSIONS', '// quests &amp; combat record');
 section('sec-spotlight.svg', '04', 'SPECIAL GRADE', '// featured repositories');
 section('sec-domain.svg', '05', 'DOMAIN EXPANSION', '// a year inside the void');
