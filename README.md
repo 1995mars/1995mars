@@ -26,12 +26,9 @@
   <img src="./awaken/hunter-dark.svg" alt="Hunter license" width="100%" />
 </div>
 
-<details>
-<summary><b>Full status window</b></summary>
 <div align="center">
   <img src="./awaken/status-dark.svg" alt="Status window" width="100%" />
 </div>
-</details>
 
 <img src="./assets/sec-missions.svg" alt="Missions" width="100%" />
 
