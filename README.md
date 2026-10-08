@@ -78,8 +78,9 @@
 
 <div align="center">
   <img src="./images/icon/donate.jpg" title="Donate to me" alt="Donate QR" height="280" />
-  <br /><br />
+  <br />
   <b>☕ Buy me a coffee</b>
+  <br /><br />
 </div>
 
 <div align="center">
