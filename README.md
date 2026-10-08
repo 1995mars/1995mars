@@ -27,11 +27,11 @@
 <img src="./assets/sec-status.svg" alt="Limitless — Hunter license" width="100%" />
 
 <div align="center">
-  <img src="./awaken/hunter-dark.svg" alt="Hunter license" width="100%" />
+  <img src="./awaken/hunter-dark.svg" alt="Hunter license" width="85%" />
 </div>
 
 <div align="center">
-  <img src="./awaken/status-dark.svg" alt="Status window" width="100%" />
+  <img src="./awaken/status-dark.svg" alt="Status window" width="85%" />
 </div>
 
 <img src="./assets/sec-missions.svg" alt="Missions" width="100%" />
@@ -57,13 +57,13 @@
 <img src="./assets/sec-domain.svg" alt="Domain Expansion — Activity" width="100%" />
 
 <div align="center">
-  <img src="./awaken/activity-dark.svg" alt="Shadow extraction" width="100%" />
+  <img src="./awaken/activity-dark.svg" alt="Shadow extraction" width="85%" />
 </div>
 
 <details>
 <summary><b>🏆 Achievements</b></summary>
 <div align="center">
-  <img src="./awaken/achievements-dark.svg" alt="Achievements" width="100%" />
+  <img src="./awaken/achievements-dark.svg" alt="Achievements" width="85%" />
 </div>
 </details>
 
