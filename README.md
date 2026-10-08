@@ -70,5 +70,4 @@
 <div align="center">
   <img src="./assets/footer.svg" alt="Hollow Purple" width="100%" />
   <br />
-  Status widgets by <a href="https://github.com/billtruong003/git-profile-awaken">git-profile-awaken</a>
 </div>
