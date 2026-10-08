@@ -1,0 +1,12 @@
+{
+  "username": "1995mars",
+  "layout": "custom",
+  "widgets": ["spotlight"],
+  "theme": "abyssal",
+  "motion": "full",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "hours": false,
+  "spotlight": ["Microservices", "Spring-security-6"],
+  "outDir": "awaken/more",
+  "readme": null
+}

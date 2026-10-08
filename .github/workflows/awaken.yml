@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [awaken.json]
+    paths: [awaken.json, awaken-spotlight.json]
 
 permissions:
   contents: write
@@ -22,3 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: billtruong003/git-profile-awaken@main
+      # The spotlight widget draws at most four cards per run; a second pass adds two more.
+      - uses: billtruong003/git-profile-awaken@main
+        with:
+          config: awaken-spotlight.json
