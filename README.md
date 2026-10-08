@@ -1,42 +1,81 @@
-# About Me
+<div align="center">
 
-👋 Hey everyone, I'm <b>[Mars](https://www.facebook.com/1995mars/)</b> <br>
-<b>✨Fullstack Web Developer✨</b>
-- <img align="center" src="./images/icon/linkedin.png" title = "Twitter" alt="" height="20" /> [in/1995mars](https://www.linkedin.com/in/1995mars/) 
-- <img align="center" src="./images/icon/mail.webp" title = "Twitter" alt="" height="20" /> tranthanhtung04101995@gmail.com
+<img src="./assets/header.svg" alt="Mars — Fullstack Web Developer" width="100%" />
 
+<p>
+  <a href="https://www.linkedin.com/in/1995mars/"><img src="https://img.shields.io/badge/LinkedIn-1995mars-38bdf8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b1c4d" alt="LinkedIn" /></a>
+  <a href="mailto:tranthanhtung04101995@gmail.com"><img src="https://img.shields.io/badge/Gmail-contact%20me-a855f7?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1e1b4b" alt="Gmail" /></a>
+  <a href="https://www.facebook.com/1995mars/"><img src="https://img.shields.io/badge/Facebook-1995mars-2563eb?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0b1c4d" alt="Facebook" /></a>
+  <img src="https://komarev.com/ghpvc/?username=1995mars&style=for-the-badge&color=6366f1&label=VISITORS" alt="Profile views" />
+</p>
 
+</div>
 
+<img src="./assets/sec-about.svg" alt="Six Eyes — About me" width="100%" />
 
-  
-<table>
-<tr>
-<td>
+👋 Hey everyone, I'm **[Mars](https://www.facebook.com/1995mars/)** — a ✨ **Fullstack Web Developer** ✨ with deep roots in **Java**.
 
-🖥️ I am a developer with expertise in Java web development. I have a strong foundation in Java and am well-versed in web development frameworks such as Spring, Hibernate. 
+- ☕ **Java at the core** — Spring, Spring Boot, Spring Security and Hibernate, from design all the way to deployment.
+- 🔌 **APIs & services** — RESTful APIs, microservices, messaging with Kafka, secure and scalable web applications.
+- 🗄️ **Data** — database design and tuning across MySQL, Oracle, PostgreSQL and MongoDB.
+- 🎨 **Front to back** — comfortable on both sides of the stack, in agile teams.
+- 🚀 **Always levelling up** — I enjoy hard problems and projects that push my limits.
 
-My experience includes working on various web projects from design to deployment, which has given me extensive experience in database design, server-side scripting, and front-end development. I have also worked with various databases such as MySQL, Oracle, and MongoDB.
+<div align="center">
+  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=hunter&theme=abyssal" alt="Hunter license" width="100%" />
+</div>
 
-My skills in Java web development include creating RESTful APIs, building secure and scalable web applications, and implementing various web services. Additionally, I have experience in agile development methodologies and working in a team environment.
+<img src="./assets/sec-stack.svg" alt="Cursed Techniques — Tech stack" width="100%" />
 
-I am constantly striving to learn and keep up with the latest trends and technologies in Java web development. I enjoy solving complex problems and working on challenging projects that allow me to push my limits and learn something new.
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,kafka,mysql,postgres,mongodb,redis,docker&theme=dark" alt="Java, Spring, Hibernate, Kafka, MySQL, PostgreSQL, MongoDB, Redis, Docker" />
+  <br /><br />
+  <img src="https://skillicons.dev/icons?i=kubernetes,nginx,linux,git,js,ts,react,html,css&theme=dark" alt="Kubernetes, Nginx, Linux, Git, JavaScript, TypeScript, React, HTML, CSS" />
+</div>
 
-Overall, I am a dedicated and passionate Java web developer, committed to delivering high-quality solutions that meet or exceed client expectations.
+<img src="./assets/sec-status.svg" alt="Limitless — Status" width="100%" />
 
-</td>
+<div align="center">
+  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=status&theme=abyssal" alt="Status window" width="100%" />
+</div>
 
-<td align="center">
-<img src="./images/icon/donate.jpg" title="Donate to me" alt="" height="666" />
-<br/>
-<b>☕ Buy Me a Coffee</b>
-</td>
-</tr>
-</table
+<img src="./assets/sec-missions.svg" alt="Missions" width="100%" />
 
-## GitHub Streak Stats
+<div align="center">
+  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=quest&theme=abyssal" alt="Active quest" width="49%" />
+  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=daily&theme=abyssal" alt="Daily quest" width="49%" />
+  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=contribution&theme=abyssal" alt="Contribution log" width="49%" />
+  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=combat&theme=abyssal" alt="Combat record" width="49%" />
+</div>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=1995mars&theme=merko&border_radius=10)](https://git.io/streak-stats) 
+<img src="./assets/sec-domain.svg" alt="Domain Expansion — Activity" width="100%" />
 
-🚀 * 🚀 * 🚀 * 👩🏻‍🚀
+<div align="center">
+  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=activity&theme=abyssal" alt="Contribution activity" width="100%" />
+  <br /><br />
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=1995mars&background=030712&border=1e3a8a&ring=38bdf8&fire=a855f7&currStreakNum=e0f2fe&sideNums=e0f2fe&currStreakLabel=7dd3fc&sideLabels=7dd3fc&dates=64748b&stroke=1e3a8a&border_radius=8" alt="GitHub streak" /></a>
+</div>
 
-[![Emma github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=1995mars&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<details>
+<summary><b>🏆 Achievements</b></summary>
+<br />
+<div align="center">
+  <img src="https://git-profile-awaken.vercel.app/api?username=1995mars&widget=achievements&theme=abyssal" alt="Achievements" width="100%" />
+</div>
+</details>
+
+<details>
+<summary><b>☕ Buy me a coffee</b></summary>
+<br />
+<div align="center">
+  <img src="./images/icon/donate.jpg" title="Donate to me" alt="Donate QR" height="420" />
+</div>
+</details>
+
+<br />
+
+<div align="center">
+  <img src="./assets/footer.svg" alt="Hollow Purple" width="100%" />
+  <br />
+  <sub>Status widgets by <a href="https://github.com/billtruong003/git-profile-awaken">git-profile-awaken</a> · theme <code>abyssal</code></sub>
+</div>
