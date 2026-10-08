@@ -2,7 +2,7 @@
   "login": "1995mars",
   "level": 9,
   "overall": "S",
-  "overallPercentile": 0.9707971784838935,
+  "overallPercentile": 0.9708250590135004,
   "layout": "custom",
   "class": {
     "name": "Illusionist",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 216,
+      "value": 217,
       "rank": "B",
-      "percentile": 0.8296156719693993
+      "percentile": 0.8303680678789371
     },
     {
       "code": "AGI",
@@ -50,6 +50,20 @@
   ],
   "events": [
     {
+      "kind": "achievement",
+      "subject": "boss-slayer",
+      "from": "0",
+      "to": "1",
+      "at": "2026-10-08T22:02:30.595Z"
+    },
+    {
+      "kind": "achievement",
+      "subject": "collector",
+      "from": "0",
+      "to": "1",
+      "at": "2026-10-08T22:02:30.595Z"
+    },
+    {
       "kind": "level",
       "subject": "Level",
       "from": "8",
@@ -76,7 +90,7 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 216
+      "value": 217
     },
     {
       "id": "unbroken",
@@ -91,7 +105,7 @@
     {
       "id": "early-bird",
       "tier": 1,
-      "value": 18
+      "value": 17
     },
     {
       "id": "weekend-warrior",
@@ -166,12 +180,12 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 3
+      "value": 5
     },
     {
       "id": "boss-slayer",
-      "tier": 0,
-      "value": 0
+      "tier": 1,
+      "value": 1
     },
     {
       "id": "escape-artist",
@@ -180,12 +194,17 @@
     },
     {
       "id": "collector",
-      "tier": 0,
-      "value": 3
+      "tier": 1,
+      "value": 4
     }
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-08",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-10-07",
         "cleared": 3,
@@ -193,16 +212,19 @@
       }
     ],
     "perfectDays": 1,
-    "run": 1,
+    "run": 0,
     "bestRun": 1,
-    "questsDone": 3,
-    "bosses": [],
+    "questsDone": 5,
+    "bosses": [
+      "2026-10-05"
+    ],
     "escapes": 0,
     "kinds": [
       "contribute",
       "streak",
-      "average"
+      "average",
+      "mp"
     ]
   },
-  "syncedAt": "2026-10-08T09:33:51.123Z"
+  "syncedAt": "2026-10-08T22:02:30.595Z"
 }
