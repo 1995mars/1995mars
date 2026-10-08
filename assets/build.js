@@ -148,6 +148,73 @@ section('sec-spotlight.svg', '04', 'SPECIAL GRADE', '// featured repositories');
 section('sec-domain.svg', '05', 'DOMAIN EXPANSION', '// a year inside the void');
 section('sec-coffee.svg', '06', 'REVERSE CURSED TECHNIQUE', '// buy me a coffee');
 
+/* ───────────────────────── coffee: framed donate QR ───────────────────────── */
+seed = 2018;
+const qr = fs.readFileSync(path.join(dir, '..', 'images', 'icon', 'donate.jpg')).toString('base64');
+const CH = 300;
+const QX = 44, QY = 26, QW = 225, QH = 248; // 669x736 source, kept whole so it still scans
+const OX = 700, OY = 150;                   // reverse-cursed orb on the right
+const coffee = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${CH}" viewBox="0 0 ${W} ${CH}" role="img" aria-label="Buy me a coffee — scan the VietQR code with any banking app">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#02040f"/><stop offset=".55" stop-color="#050b24"/><stop offset="1" stop-color="#0a0524"/>
+  </linearGradient>
+  <radialGradient id="neb" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7c3aed" stop-opacity=".4"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+  <radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#38bdf8" stop-opacity=".35"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
+  <radialGradient id="orb" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff"/><stop offset=".3" stop-color="#fde68a"/><stop offset=".65" stop-color="#f59e0b" stop-opacity=".55"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/></radialGradient>
+  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#bae6fd"/><stop offset="1" stop-color="#a78bfa"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#1e3a8a"/><stop offset="1" stop-color="#a855f7"/>
+  </linearGradient>
+  <clipPath id="frame"><path d="M14 0H${W - 14}L${W} 14V${CH - 14}L${W - 14} ${CH}H14L0 ${CH - 14}V14Z"/></clipPath>
+  <clipPath id="qr"><rect x="${QX}" y="${QY}" width="${QW}" height="${QH}" rx="10"/></clipPath>
+</defs>
+<style>
+  .tw{animation:tw 4s ease-in-out infinite}
+  @keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+  .cw{animation:spin 22s linear infinite;transform-origin:${OX}px ${OY}px}
+  .ccw{animation:spin 14s linear infinite reverse;transform-origin:${OX}px ${OY}px}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .pulse{animation:pulse 3.5s ease-in-out infinite;transform-origin:${OX}px ${OY}px}
+  @keyframes pulse{0%,100%{opacity:.55;transform:scale(.85)}50%{opacity:1;transform:scale(1.1)}}
+  .bl{animation:bl 3s ease-in-out infinite}
+  @keyframes bl{0%,100%{opacity:.4}50%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#frame)">
+  <rect width="${W}" height="${CH}" fill="url(#bg)"/>
+  <ellipse cx="${OX}" cy="${OY}" rx="260" ry="170" fill="url(#neb)"/>
+  ${stars(60, W, CH)}
+
+  <!-- QR, untouched inside its frame -->
+  <ellipse cx="${QX + QW / 2}" cy="${QY + QH / 2}" rx="${QW * 0.8}" ry="${QH * 0.7}" fill="url(#halo)"/>
+  <image href="data:image/jpeg;base64,${qr}" x="${QX}" y="${QY}" width="${QW}" height="${QH}" clip-path="url(#qr)" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="${QX}" y="${QY}" width="${QW}" height="${QH}" rx="10" fill="none" stroke="#1d4ed8" stroke-width="1.5"/>
+  <path class="bl" d="M${QX - 10} ${QY + 14}V${QY - 10}H${QX + 14}M${QX + QW - 14} ${QY - 10}H${QX + QW + 10}V${QY + 14}M${QX + QW + 10} ${QY + QH - 14}V${QY + QH + 10}H${QX + QW - 14}M${QX + 14} ${QY + QH + 10}H${QX - 10}V${QY + QH - 14}" fill="none" stroke="#7dd3fc" stroke-width="2"/>
+
+  <!-- copy -->
+  <text x="312" y="78" font-family="${MONO}" font-size="11" letter-spacing="2.5" fill="#38bdf8">[ REVERSE CURSED TECHNIQUE ]</text>
+  <text x="310" y="122" font-family="${SANS}" font-size="34" font-weight="800" fill="url(#name)" letter-spacing=".5">Buy me a coffee</text>
+  <text x="312" y="152" font-family="${SANS}" font-size="15" fill="#cbd5e1">Negative energy in, positive energy out.</text>
+  <text x="312" y="174" font-family="${SANS}" font-size="15" fill="#cbd5e1">One cup restores the sorcerer behind this code.</text>
+  <path d="M312 198H560" stroke="#1e3a8a" stroke-width="1"/>
+  <text x="312" y="224" font-family="${MONO}" font-size="12.5" fill="#38bdf8">&gt;<tspan dx="8" fill="#e0f2fe">scan with any banking app</tspan></text>
+  <text x="312" y="246" font-family="${MONO}" font-size="11.5" letter-spacing="1" fill="#7c8aa3">VietQR · Napas 247</text>
+
+  <!-- the orb -->
+  <circle class="pulse" cx="${OX}" cy="${OY}" r="46" fill="url(#orb)"/>
+  <circle class="cw" cx="${OX}" cy="${OY}" r="56" fill="none" stroke="#fcd34d" stroke-opacity=".8" stroke-width="1.2" stroke-dasharray="60 16 5 16"/>
+  <circle class="ccw" cx="${OX}" cy="${OY}" r="72" fill="none" stroke="#c4b5fd" stroke-opacity=".6" stroke-width=".8" stroke-dasharray="2 8"/>
+  <text x="${OX}" y="${OY + 104}" text-anchor="end" dx="100" font-family="${SANS}" font-size="11" letter-spacing="3.5" fill="#c4b5fd">HEAL · REFILL · REPEAT</text>
+</g>
+<path d="M14 .75H${W - 14}L${W - .75} 14V${CH - 14}L${W - 14} ${CH - .75}H14L.75 ${CH - 14}V14Z" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+<path d="M0 38V14L14 0H38M${W - 38} ${CH}H${W - 14}L${W} ${CH - 14}V${CH - 38}" fill="none" stroke="#7dd3fc" stroke-width="2.5"/>
+</svg>
+`;
+fs.writeFileSync(path.join(dir, 'coffee.svg'), coffee);
+
 /* ───────────────────────── footer: hollow purple ───────────────────────── */
 seed = 410;
 const FH = 96, CY = 38;

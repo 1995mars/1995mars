@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="216" viewBox="0 0 420 216" role="img" aria-label="Streak: current 38 days, longest 38 days, 1,203 contributions in total">
+<style>
+  .br{animation:br 3.2s ease-in-out infinite}
+  @keyframes br{0%,100%{opacity:.45}50%{opacity:1}}
+  .ring{animation:ring 9s linear infinite;transform-origin:78px 122px}
+  @keyframes ring{to{transform:rotate(360deg)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<path d="M18 4H416V198L402 212H4V18Z" fill="#06121f"/>
+<path d="M18.4 4.8H415.3V197.6L401.6 211.3H4.8V18.4Z" fill="none" stroke="#5a6b7d" stroke-width="1.5"/>
+<path class="br" d="M405 1H419V15M1 201V215H15" fill="none" stroke="#00b4d8" stroke-width="2"/>
+<text x="22" y="36" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="16" font-weight="700" letter-spacing="2" fill="#00b4d8">[ STREAK ]</text>
+<text x="398" y="36" text-anchor="end" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="14" fill="#8ea6bf">1,203 total</text>
+<circle cx="78" cy="122" r="46" fill="none" stroke="#12263a" stroke-width="6"/>
+<circle class="ring" cx="78" cy="122" r="46" fill="none" stroke="#00b4d8" stroke-width="6" stroke-linecap="round" stroke-dasharray="150 139"/>
+<text x="78" y="130" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="38" font-weight="800" fill="#e2ecf6">38</text>
+<text x="78" y="149" text-anchor="middle" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="11" letter-spacing="2" fill="#00b4d8">DAYS</text>
+<text x="78" y="194" text-anchor="middle" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="1.5" fill="#ffc53d">CURRENT</text>
+<text x="158" y="72" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="1.5" fill="#8ea6bf">LONGEST STREAK</text>
+<text x="158" y="94" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#e2ecf6">38 days<tspan dx="8" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="400" fill="#8ea6bf">→ 2026-10-08</tspan></text>
+<text x="158" y="118" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="1.5" fill="#8ea6bf">LAST CONTRIBUTION</text>
+<text x="158" y="140" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#e2ecf6">2026-10-08</text>
+<text x="158" y="164" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="1.5" fill="#8ea6bf">THIS YEAR</text>
+<text x="158" y="186" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#e2ecf6">354<tspan dx="8" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" font-weight="400" fill="#8ea6bf">contributions</tspan></text>
+</svg>

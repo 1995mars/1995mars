@@ -34,6 +34,11 @@
   <img src="./awaken/status-dark.svg" alt="Status window" width="85%" />
 </div>
 
+<div align="center">
+  <img src="./assets/languages.svg" alt="Languages" width="49%" />
+  <img src="./assets/streak.svg" alt="Contribution streak" width="49%" />
+</div>
+
 <br /><br />
 
 <img src="./assets/sec-missions.svg" alt="Missions" width="100%" />
@@ -76,12 +81,9 @@
 
 <img src="./assets/sec-coffee.svg" alt="Reverse Cursed Technique — Buy me a coffee" width="100%" />
 
-<div align="center">
-  <img src="./images/icon/donate.jpg" title="Donate to me" alt="Donate QR" height="280" />
-  <br />
-  <b>☕ Buy me a coffee</b>
-  <br /><br />
-</div>
+<img src="./assets/coffee.svg" alt="Buy me a coffee — scan the VietQR code with any banking app" width="100%" />
+
+<br />
 
 <div align="center">
   <img src="./assets/footer.svg" alt="Hollow Purple" width="100%" />

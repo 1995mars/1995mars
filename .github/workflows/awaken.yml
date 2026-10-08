@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [awaken.json, assets/spotlight.js]
+    paths: [awaken.json, assets/spotlight.js, assets/stats.js]
 
 permissions:
   contents: write
@@ -22,13 +22,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: billtruong003/git-profile-awaken@main
-      - name: Refresh spotlight cards
+      - name: Refresh spotlight and stats cards
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           node assets/spotlight.js
-          git add -- assets/spot-*.svg
+          node assets/stats.js
+          git add -- assets/spot-*.svg assets/languages.svg assets/streak.svg
           if ! git diff --cached --quiet; then
-            git commit -m "chore(spotlight): refresh repository cards [skip ci]"
+            git commit -m "chore(cards): refresh spotlight and stats cards [skip ci]"
             git push
           fi
