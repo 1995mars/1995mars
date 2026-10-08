@@ -79,7 +79,7 @@
 <use href="#i-sword" x="647.5" y="128" width="20" height="20" fill="#c2d1e0"/>
 <text x="687.5" y="130" class="strong" fill="#c2d1e0">Relentless</text>
 <path transform="translate(644.5 166)" d="M0 3 3 0 6 3 3 6Z" fill="#00b4d8"/><path transform="translate(654.5 166)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/><path transform="translate(664.5 166)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/>
-<text x="687.5" y="149" class="caption" fill="#c2d1e0">207 / 1,000</text>
+<text x="687.5" y="149" class="caption" fill="#c2d1e0">210 / 1,000</text>
 <text x="687.5" y="165" class="code" fill="#718da9">COMMITS</text>
 </g>
 <g>
@@ -109,7 +109,7 @@
 <use href="#i-sun" x="445" y="204" width="20" height="20" fill="#c2d1e0"/>
 <text x="485" y="206" class="strong" fill="#c2d1e0">Early Bird</text>
 <path transform="translate(442 242)" d="M0 3 3 0 6 3 3 6Z" fill="#00b4d8"/><path transform="translate(452 242)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/><path transform="translate(462 242)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/>
-<text x="485" y="225" class="caption" fill="#c2d1e0">21 / 25</text>
+<text x="485" y="225" class="caption" fill="#c2d1e0">20 / 25</text>
 <text x="485" y="241" class="code" fill="#718da9">% COMMITS 05–09H</text>
 </g>
 <g>
