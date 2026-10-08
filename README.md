@@ -26,7 +26,7 @@
   <img src="https://skillicons.dev/icons?i=java,spring,hibernate,kafka,mysql,postgres,mongodb,redis,docker,kubernetes,nginx,linux,git,js,ts,react,html,css&theme=dark&perline=18" alt="Java, Spring, Hibernate, Kafka, MySQL, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, Nginx, Linux, Git, JavaScript, TypeScript, React, HTML, CSS" width="78%" />
 </div>
 
-<br />
+<br /><br />
 
 <img src="./assets/sec-status.svg" alt="Limitless — Status window" width="100%" />
 
@@ -34,7 +34,7 @@
   <img src="./awaken/status-dark.svg" alt="Status window" width="85%" />
 </div>
 
-<br />
+<br /><br />
 
 <img src="./assets/sec-missions.svg" alt="Missions" width="100%" />
 
@@ -47,7 +47,7 @@
   <img src="./awaken/oracle-dark.svg" alt="Oracle scroll" width="32.5%" />
 </div>
 
-<br />
+<br /><br />
 
 <img src="./assets/sec-spotlight.svg" alt="Special Grade — Featured repositories" width="100%" />
 
@@ -60,7 +60,7 @@
   <a href="https://github.com/1995mars/Spring-security-6"><img src="./assets/spot-6.svg" alt="Spring-security-6" width="32.5%" /></a>
 </div>
 
-<br />
+<br /><br />
 
 <img src="./assets/sec-domain.svg" alt="Domain Expansion — Activity" width="100%" />
 
@@ -72,13 +72,13 @@
   <img src="./awaken/achievements-dark.svg" alt="Achievements" width="85%" />
 </div>
 
-<br />
+<br /><br />
 
 <img src="./assets/sec-coffee.svg" alt="Reverse Cursed Technique — Buy me a coffee" width="100%" />
 
 <div align="center">
   <img src="./images/icon/donate.jpg" title="Donate to me" alt="Donate QR" height="280" />
-  <br />
+  <br /><br />
   <b>☕ Buy me a coffee</b>
 </div>
 
