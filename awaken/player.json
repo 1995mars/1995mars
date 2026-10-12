@@ -2,7 +2,7 @@
   "login": "1995mars",
   "level": 9,
   "overall": "S",
-  "overallPercentile": 0.9708671196507894,
+  "overallPercentile": 0.9710318913475108,
   "layout": "custom",
   "class": {
     "name": "Illusionist",
@@ -37,9 +37,9 @@
     },
     {
       "code": "LUK",
-      "value": 110,
+      "value": 114,
       "rank": "SSS",
-      "percentile": 0.9970037689629403
+      "percentile": 0.9972111108504734
     },
     {
       "code": "CHA",
@@ -95,7 +95,7 @@
     {
       "id": "unbroken",
       "tier": 2,
-      "value": 41
+      "value": 42
     },
     {
       "id": "night-owl",
@@ -140,7 +140,7 @@
     {
       "id": "star-collector",
       "tier": 2,
-      "value": 110
+      "value": 114
     },
     {
       "id": "beacon",
@@ -165,7 +165,7 @@
     {
       "id": "diligent",
       "tier": 1,
-      "value": 82
+      "value": 83
     },
     {
       "id": "daily-grinder",
@@ -180,7 +180,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 10
+      "value": 12
     },
     {
       "id": "boss-slayer",
@@ -200,6 +200,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-12",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-10-11",
         "cleared": 2,
@@ -229,7 +234,7 @@
     "perfectDays": 1,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 10,
+    "questsDone": 12,
     "bosses": [
       "2026-10-05"
     ],
@@ -243,5 +248,5 @@
       "weekend"
     ]
   },
-  "syncedAt": "2026-10-11T20:57:14.941Z"
+  "syncedAt": "2026-10-12T23:36:34.629Z"
 }
