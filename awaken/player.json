@@ -95,7 +95,7 @@
     {
       "id": "unbroken",
       "tier": 2,
-      "value": 42
+      "value": 43
     },
     {
       "id": "night-owl",
@@ -110,7 +110,7 @@
     {
       "id": "weekend-warrior",
       "tier": 0,
-      "value": 17
+      "value": 15
     },
     {
       "id": "gate-opener",
@@ -165,7 +165,7 @@
     {
       "id": "diligent",
       "tier": 1,
-      "value": 83
+      "value": 84
     },
     {
       "id": "daily-grinder",
@@ -180,7 +180,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 12
+      "value": 14
     },
     {
       "id": "boss-slayer",
@@ -200,6 +200,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-13",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-10-12",
         "cleared": 2,
@@ -234,7 +239,7 @@
     "perfectDays": 1,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 12,
+    "questsDone": 14,
     "bosses": [
       "2026-10-05"
     ],
@@ -248,5 +253,5 @@
       "weekend"
     ]
   },
-  "syncedAt": "2026-10-12T23:36:34.629Z"
+  "syncedAt": "2026-10-13T21:49:42.848Z"
 }
