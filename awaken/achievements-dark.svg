@@ -79,7 +79,7 @@
 <use href="#i-sword" x="647.5" y="128" width="20" height="20" fill="#c2d1e0"/>
 <text x="687.5" y="130" class="strong" fill="#c2d1e0">Relentless</text>
 <path transform="translate(644.5 166)" d="M0 3 3 0 6 3 3 6Z" fill="#00b4d8"/><path transform="translate(654.5 166)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/><path transform="translate(664.5 166)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/>
-<text x="687.5" y="149" class="caption" fill="#c2d1e0">217 / 1,000</text>
+<text x="687.5" y="149" class="caption" fill="#c2d1e0">219 / 1,000</text>
 <text x="687.5" y="165" class="code" fill="#718da9">COMMITS</text>
 </g>
 <g>
@@ -89,7 +89,7 @@
 <use href="#i-flame" x="40" y="204" width="20" height="20" fill="#00b4d8"/>
 <text x="80" y="206" class="strong" fill="#c2d1e0">Unbroken</text>
 <path transform="translate(37 242)" d="M0 3 3 0 6 3 3 6Z" fill="#00b4d8"/><path transform="translate(47 242)" d="M0 3 3 0 6 3 3 6Z" fill="#00b4d8"/><path transform="translate(57 242)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/>
-<text x="80" y="225" class="caption" fill="#c2d1e0">44 / 100</text>
+<text x="80" y="225" class="caption" fill="#c2d1e0">45 / 100</text>
 <text x="80" y="241" class="code" fill="#718da9">DAY STREAK</text>
 </g>
 <g>
@@ -189,7 +189,7 @@
 <use href="#i-beacon" x="445" y="356" width="20" height="20" fill="#c2d1e0"/>
 <text x="485" y="358" class="strong" fill="#c2d1e0">Beacon</text>
 <path transform="translate(442 394)" d="M0 3 3 0 6 3 3 6Z" fill="#00b4d8"/><path transform="translate(452 394)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/><path transform="translate(462 394)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/>
-<text x="485" y="377" class="caption" fill="#c2d1e0">46 / 100</text>
+<text x="485" y="377" class="caption" fill="#c2d1e0">45 / 100</text>
 <text x="485" y="393" class="code" fill="#718da9">FOLLOWERS</text>
 </g>
 <g>
@@ -229,7 +229,7 @@
 <use href="#i-calendar" x="445" y="432" width="20" height="20" fill="#c2d1e0"/>
 <text x="485" y="434" class="strong" fill="#c2d1e0">Diligent</text>
 <path transform="translate(442 470)" d="M0 3 3 0 6 3 3 6Z" fill="#00b4d8"/><path transform="translate(452 470)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/><path transform="translate(462 470)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/>
-<text x="485" y="453" class="caption" fill="#c2d1e0">85 / 150</text>
+<text x="485" y="453" class="caption" fill="#c2d1e0">86 / 150</text>
 <text x="485" y="469" class="code" fill="#718da9">ACTIVE DAYS</text>
 </g>
 <g>
@@ -259,7 +259,7 @@
 <use href="#i-lock" x="242.5" y="508" width="20" height="20" fill="#718da9"/>
 <text x="282.5" y="510" class="strong" fill="#718da9">Quest Hunter</text>
 <path transform="translate(239.5 546)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/><path transform="translate(249.5 546)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/><path transform="translate(259.5 546)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/>
-<text x="282.5" y="529" class="caption" fill="#718da9">15 / 50</text>
+<text x="282.5" y="529" class="caption" fill="#718da9">17 / 50</text>
 <text x="282.5" y="545" class="code" fill="#718da9">QUESTS CLEARED</text>
 </g>
 <g>
@@ -269,7 +269,7 @@
 <use href="#i-boss" x="445" y="508" width="20" height="20" fill="#c2d1e0"/>
 <text x="485" y="510" class="strong" fill="#c2d1e0">Boss Slayer</text>
 <path transform="translate(442 546)" d="M0 3 3 0 6 3 3 6Z" fill="#00b4d8"/><path transform="translate(452 546)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/><path transform="translate(462 546)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/>
-<text x="485" y="529" class="caption" fill="#c2d1e0">1 / 10</text>
+<text x="485" y="529" class="caption" fill="#c2d1e0">2 / 10</text>
 <text x="485" y="545" class="code" fill="#718da9">WEEKLY BOSSES</text>
 </g>
 <g>
@@ -292,5 +292,5 @@
 <text x="80" y="605" class="caption" fill="#c2d1e0">6 / 7</text>
 <text x="80" y="621" class="code" fill="#718da9">QUEST KINDS</text>
 </g>
-<text x="820" y="646" class="code" fill="#718da9" text-anchor="end">@1995mars · SYNCED 2026-10-14</text>
+<text x="820" y="646" class="code" fill="#718da9" text-anchor="end">@1995mars · SYNCED 2026-10-15</text>
 </svg>

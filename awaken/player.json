@@ -2,7 +2,7 @@
   "login": "1995mars",
   "level": 9,
   "overall": "S",
-  "overallPercentile": 0.9711102779459426,
+  "overallPercentile": 0.9710872742059155,
   "layout": "custom",
   "class": {
     "name": "Illusionist",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 217,
+      "value": 219,
       "rank": "B",
-      "percentile": 0.8303680678789371
+      "percentile": 0.8318563209752011
     },
     {
       "code": "AGI",
@@ -43,9 +43,9 @@
     },
     {
       "code": "CHA",
-      "value": 46,
+      "value": 45,
       "rank": "SS",
-      "percentile": 0.9891088913545332
+      "percentile": 0.9886195977007862
     }
   ],
   "events": [
@@ -62,13 +62,6 @@
       "from": "0",
       "to": "1",
       "at": "2026-10-08T22:02:30.595Z"
-    },
-    {
-      "kind": "level",
-      "subject": "Level",
-      "from": "8",
-      "to": "9",
-      "at": "2026-10-08T02:54:31.457Z"
     }
   ],
   "achievements": [
@@ -90,12 +83,12 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 217
+      "value": 219
     },
     {
       "id": "unbroken",
       "tier": 2,
-      "value": 44
+      "value": 45
     },
     {
       "id": "night-owl",
@@ -145,7 +138,7 @@
     {
       "id": "beacon",
       "tier": 1,
-      "value": 46
+      "value": 45
     },
     {
       "id": "guild-hopper",
@@ -165,7 +158,7 @@
     {
       "id": "diligent",
       "tier": 1,
-      "value": 85
+      "value": 86
     },
     {
       "id": "daily-grinder",
@@ -180,12 +173,12 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 15
+      "value": 17
     },
     {
       "id": "boss-slayer",
       "tier": 1,
-      "value": 1
+      "value": 2
     },
     {
       "id": "escape-artist",
@@ -200,6 +193,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-15",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-10-14",
         "cleared": 1,
@@ -244,8 +242,9 @@
     "perfectDays": 1,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 15,
+    "questsDone": 17,
     "bosses": [
+      "2026-10-12",
       "2026-10-05"
     ],
     "escapes": 0,
@@ -258,5 +257,5 @@
       "weekend"
     ]
   },
-  "syncedAt": "2026-10-14T20:42:22.428Z"
+  "syncedAt": "2026-10-15T20:18:58.713Z"
 }
