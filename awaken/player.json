@@ -2,7 +2,7 @@
   "login": "1995mars",
   "level": 9,
   "overall": "S",
-  "overallPercentile": 0.9707971784838935,
+  "overallPercentile": 0.9711102779459426,
   "layout": "custom",
   "class": {
     "name": "Illusionist",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 216,
+      "value": 217,
       "rank": "B",
-      "percentile": 0.8296156719693993
+      "percentile": 0.8303680678789371
     },
     {
       "code": "AGI",
@@ -37,18 +37,32 @@
     },
     {
       "code": "LUK",
-      "value": 109,
+      "value": 114,
       "rank": "SSS",
-      "percentile": 0.9969486632377536
+      "percentile": 0.9972111108504734
     },
     {
       "code": "CHA",
-      "value": 45,
+      "value": 46,
       "rank": "SS",
-      "percentile": 0.9886195977007862
+      "percentile": 0.9891088913545332
     }
   ],
   "events": [
+    {
+      "kind": "achievement",
+      "subject": "boss-slayer",
+      "from": "0",
+      "to": "1",
+      "at": "2026-10-08T22:02:30.595Z"
+    },
+    {
+      "kind": "achievement",
+      "subject": "collector",
+      "from": "0",
+      "to": "1",
+      "at": "2026-10-08T22:02:30.595Z"
+    },
     {
       "kind": "level",
       "subject": "Level",
@@ -76,12 +90,12 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 216
+      "value": 217
     },
     {
       "id": "unbroken",
       "tier": 2,
-      "value": 38
+      "value": 44
     },
     {
       "id": "night-owl",
@@ -91,12 +105,12 @@
     {
       "id": "early-bird",
       "tier": 1,
-      "value": 18
+      "value": 17
     },
     {
       "id": "weekend-warrior",
       "tier": 0,
-      "value": 16
+      "value": 15
     },
     {
       "id": "gate-opener",
@@ -126,12 +140,12 @@
     {
       "id": "star-collector",
       "tier": 2,
-      "value": 109
+      "value": 114
     },
     {
       "id": "beacon",
       "tier": 1,
-      "value": 45
+      "value": 46
     },
     {
       "id": "guild-hopper",
@@ -151,7 +165,7 @@
     {
       "id": "diligent",
       "tier": 1,
-      "value": 79
+      "value": 85
     },
     {
       "id": "daily-grinder",
@@ -166,12 +180,12 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 3
+      "value": 15
     },
     {
       "id": "boss-slayer",
-      "tier": 0,
-      "value": 0
+      "tier": 1,
+      "value": 1
     },
     {
       "id": "escape-artist",
@@ -180,12 +194,47 @@
     },
     {
       "id": "collector",
-      "tier": 0,
-      "value": 3
+      "tier": 1,
+      "value": 6
     }
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-14",
+        "cleared": 1,
+        "total": 3
+      },
+      {
+        "date": "2026-10-13",
+        "cleared": 2,
+        "total": 3
+      },
+      {
+        "date": "2026-10-12",
+        "cleared": 2,
+        "total": 3
+      },
+      {
+        "date": "2026-10-11",
+        "cleared": 2,
+        "total": 3
+      },
+      {
+        "date": "2026-10-10",
+        "cleared": 2,
+        "total": 3
+      },
+      {
+        "date": "2026-10-09",
+        "cleared": 1,
+        "total": 3
+      },
+      {
+        "date": "2026-10-08",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-10-07",
         "cleared": 3,
@@ -193,16 +242,21 @@
       }
     ],
     "perfectDays": 1,
-    "run": 1,
+    "run": 0,
     "bestRun": 1,
-    "questsDone": 3,
-    "bosses": [],
+    "questsDone": 15,
+    "bosses": [
+      "2026-10-05"
+    ],
     "escapes": 0,
     "kinds": [
       "contribute",
       "streak",
-      "average"
+      "average",
+      "mp",
+      "three",
+      "weekend"
     ]
   },
-  "syncedAt": "2026-10-08T09:33:51.123Z"
+  "syncedAt": "2026-10-14T20:42:22.428Z"
 }
