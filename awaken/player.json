@@ -2,7 +2,7 @@
   "login": "1995mars",
   "level": 9,
   "overall": "S",
-  "overallPercentile": 0.9710872742059155,
+  "overallPercentile": 0.9720753787194305,
   "layout": "custom",
   "class": {
     "name": "Illusionist",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 219,
+      "value": 221,
       "rank": "B",
-      "percentile": 0.8318563209752011
+      "percentile": 0.8333229115397182
     },
     {
       "code": "AGI",
@@ -31,9 +31,9 @@
     },
     {
       "code": "VIT",
-      "value": 6,
+      "value": 7,
       "rank": "B",
-      "percentile": 0.7983218874983922
+      "percentile": 0.8495905783669857
     },
     {
       "code": "LUK",
@@ -48,7 +48,15 @@
       "percentile": 0.9886195977007862
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "kind": "achievement",
+      "subject": "collector",
+      "from": "1",
+      "to": "2",
+      "at": "2026-10-18T19:24:44.533Z"
+    }
+  ],
   "achievements": [
     {
       "id": "pull-shark",
@@ -68,12 +76,12 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 219
+      "value": 221
     },
     {
       "id": "unbroken",
       "tier": 2,
-      "value": 47
+      "value": 48
     },
     {
       "id": "night-owl",
@@ -83,17 +91,17 @@
     {
       "id": "early-bird",
       "tier": 1,
-      "value": 17
+      "value": 16
     },
     {
       "id": "weekend-warrior",
       "tier": 0,
-      "value": 15
+      "value": 17
     },
     {
       "id": "gate-opener",
       "tier": 0,
-      "value": 3
+      "value": 4
     },
     {
       "id": "raider",
@@ -143,22 +151,22 @@
     {
       "id": "diligent",
       "tier": 1,
-      "value": 88
+      "value": 89
     },
     {
       "id": "daily-grinder",
       "tier": 0,
-      "value": 2
+      "value": 3
     },
     {
       "id": "perfect-week",
       "tier": 0,
-      "value": 1
+      "value": 2
     },
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 21
+      "value": 24
     },
     {
       "id": "boss-slayer",
@@ -172,12 +180,17 @@
     },
     {
       "id": "collector",
-      "tier": 1,
-      "value": 6
+      "tier": 2,
+      "value": 7
     }
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-18",
+        "cleared": 3,
+        "total": 3
+      },
       {
         "date": "2026-10-17",
         "cleared": 3,
@@ -234,10 +247,10 @@
         "total": 3
       }
     ],
-    "perfectDays": 2,
-    "run": 1,
-    "bestRun": 1,
-    "questsDone": 21,
+    "perfectDays": 3,
+    "run": 2,
+    "bestRun": 2,
+    "questsDone": 24,
     "bosses": [
       "2026-10-12",
       "2026-10-05"
@@ -249,8 +262,9 @@
       "average",
       "mp",
       "three",
-      "weekend"
+      "weekend",
+      "commit"
     ]
   },
-  "syncedAt": "2026-10-17T19:20:10.104Z"
+  "syncedAt": "2026-10-18T19:24:44.533Z"
 }
