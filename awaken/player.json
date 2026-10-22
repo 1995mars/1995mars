@@ -2,7 +2,7 @@
   "login": "1995mars",
   "level": 9,
   "overall": "S",
-  "overallPercentile": 0.9720753787194305,
+  "overallPercentile": 0.9719953949661155,
   "layout": "custom",
   "class": {
     "name": "Illusionist",
@@ -43,9 +43,9 @@
     },
     {
       "code": "CHA",
-      "value": 45,
+      "value": 44,
       "rank": "SS",
-      "percentile": 0.9886195977007862
+      "percentile": 0.9881007576720311
     }
   ],
   "events": [
@@ -81,7 +81,7 @@
     {
       "id": "unbroken",
       "tier": 2,
-      "value": 51
+      "value": 52
     },
     {
       "id": "night-owl",
@@ -131,7 +131,7 @@
     {
       "id": "beacon",
       "tier": 1,
-      "value": 45
+      "value": 44
     },
     {
       "id": "guild-hopper",
@@ -151,7 +151,7 @@
     {
       "id": "diligent",
       "tier": 1,
-      "value": 92
+      "value": 93
     },
     {
       "id": "daily-grinder",
@@ -166,12 +166,12 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 30
+      "value": 32
     },
     {
       "id": "boss-slayer",
       "tier": 1,
-      "value": 2
+      "value": 3
     },
     {
       "id": "escape-artist",
@@ -186,6 +186,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-22",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-10-21",
         "cleared": 2,
@@ -265,8 +270,9 @@
     "perfectDays": 4,
     "run": 0,
     "bestRun": 3,
-    "questsDone": 30,
+    "questsDone": 32,
     "bosses": [
+      "2026-10-19",
       "2026-10-12",
       "2026-10-05"
     ],
@@ -281,5 +287,5 @@
       "commit"
     ]
   },
-  "syncedAt": "2026-10-21T20:36:15.985Z"
+  "syncedAt": "2026-10-22T20:32:37.122Z"
 }
