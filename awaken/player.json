@@ -2,7 +2,7 @@
   "login": "1995mars",
   "level": 9,
   "overall": "S",
-  "overallPercentile": 0.9719953949661155,
+  "overallPercentile": 0.9736725259686746,
   "layout": "custom",
   "class": {
     "name": "Illusionist",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 221,
+      "value": 225,
       "rank": "B",
-      "percentile": 0.8333229115397182
+      "percentile": 0.8361929141881868
     },
     {
       "code": "AGI",
@@ -31,9 +31,9 @@
     },
     {
       "code": "VIT",
-      "value": 7,
-      "rank": "B",
-      "percentile": 0.8495905783669857
+      "value": 9,
+      "rank": "A",
+      "percentile": 0.9145434310833055
     },
     {
       "code": "LUK",
@@ -48,7 +48,22 @@
       "percentile": 0.9881007576720311
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "kind": "stat",
+      "subject": "VIT",
+      "from": "B",
+      "to": "A",
+      "at": "2026-10-30T21:27:59.961Z"
+    },
+    {
+      "kind": "achievement",
+      "subject": "gate-opener",
+      "from": "0",
+      "to": "1",
+      "at": "2026-10-30T21:27:59.961Z"
+    }
+  ],
   "achievements": [
     {
       "id": "pull-shark",
@@ -68,12 +83,12 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 221
+      "value": 225
     },
     {
       "id": "unbroken",
       "tier": 2,
-      "value": 59
+      "value": 60
     },
     {
       "id": "night-owl",
@@ -83,17 +98,17 @@
     {
       "id": "early-bird",
       "tier": 1,
-      "value": 16
+      "value": 20
     },
     {
       "id": "weekend-warrior",
       "tier": 0,
-      "value": 15
+      "value": 14
     },
     {
       "id": "gate-opener",
-      "tier": 0,
-      "value": 4
+      "tier": 1,
+      "value": 6
     },
     {
       "id": "raider",
@@ -143,7 +158,7 @@
     {
       "id": "diligent",
       "tier": 1,
-      "value": 100
+      "value": 101
     },
     {
       "id": "daily-grinder",
@@ -158,7 +173,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 46
+      "value": 48
     },
     {
       "id": "boss-slayer",
@@ -178,6 +193,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-30",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-10-29",
         "cleared": 1,
@@ -297,7 +317,7 @@
     "perfectDays": 6,
     "run": 0,
     "bestRun": 3,
-    "questsDone": 46,
+    "questsDone": 48,
     "bosses": [
       "2026-10-26",
       "2026-10-19",
@@ -315,5 +335,5 @@
       "commit"
     ]
   },
-  "syncedAt": "2026-10-29T21:46:24.991Z"
+  "syncedAt": "2026-10-30T21:27:59.961Z"
 }
