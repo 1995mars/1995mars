@@ -51,6 +51,13 @@
   "events": [
     {
       "kind": "achievement",
+      "subject": "daily-grinder",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-03T22:16:56.578Z"
+    },
+    {
+      "kind": "achievement",
       "subject": "quest-hunter",
       "from": "0",
       "to": "1",
@@ -95,7 +102,7 @@
     {
       "id": "unbroken",
       "tier": 2,
-      "value": 63
+      "value": 64
     },
     {
       "id": "night-owl",
@@ -165,12 +172,12 @@
     {
       "id": "diligent",
       "tier": 1,
-      "value": 104
+      "value": 105
     },
     {
       "id": "daily-grinder",
-      "tier": 0,
-      "value": 6
+      "tier": 1,
+      "value": 7
     },
     {
       "id": "perfect-week",
@@ -180,7 +187,7 @@
     {
       "id": "quest-hunter",
       "tier": 1,
-      "value": 54
+      "value": 57
     },
     {
       "id": "boss-slayer",
@@ -200,6 +207,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-03",
+        "cleared": 3,
+        "total": 3
+      },
       {
         "date": "2026-11-02",
         "cleared": 2,
@@ -336,10 +348,10 @@
         "total": 3
       }
     ],
-    "perfectDays": 6,
-    "run": 0,
+    "perfectDays": 7,
+    "run": 1,
     "bestRun": 3,
-    "questsDone": 54,
+    "questsDone": 57,
     "bosses": [
       "2026-10-26",
       "2026-10-19",
@@ -357,5 +369,5 @@
       "commit"
     ]
   },
-  "syncedAt": "2026-11-02T23:51:45.952Z"
+  "syncedAt": "2026-11-03T22:16:56.578Z"
 }
