@@ -62,20 +62,6 @@
       "from": "0",
       "to": "1",
       "at": "2026-10-31T20:26:38.950Z"
-    },
-    {
-      "kind": "stat",
-      "subject": "VIT",
-      "from": "B",
-      "to": "A",
-      "at": "2026-10-30T21:27:59.961Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "gate-opener",
-      "from": "0",
-      "to": "1",
-      "at": "2026-10-30T21:27:59.961Z"
     }
   ],
   "achievements": [
@@ -172,12 +158,12 @@
     {
       "id": "diligent",
       "tier": 1,
-      "value": 106
+      "value": 107
     },
     {
       "id": "daily-grinder",
       "tier": 1,
-      "value": 8
+      "value": 9
     },
     {
       "id": "perfect-week",
@@ -187,7 +173,7 @@
     {
       "id": "quest-hunter",
       "tier": 1,
-      "value": 62
+      "value": 65
     },
     {
       "id": "boss-slayer",
@@ -207,6 +193,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-06",
+        "cleared": 3,
+        "total": 3
+      },
       {
         "date": "2026-11-05",
         "cleared": 2,
@@ -358,10 +349,10 @@
         "total": 3
       }
     ],
-    "perfectDays": 8,
-    "run": 0,
+    "perfectDays": 9,
+    "run": 1,
     "bestRun": 3,
-    "questsDone": 62,
+    "questsDone": 65,
     "bosses": [
       "2026-11-02",
       "2026-10-26",
@@ -380,5 +371,5 @@
       "commit"
     ]
   },
-  "syncedAt": "2026-11-05T22:39:48.601Z"
+  "syncedAt": "2026-11-06T22:03:40.976Z"
 }
