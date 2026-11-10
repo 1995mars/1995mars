@@ -48,15 +48,7 @@
       "percentile": 0.9881007576720311
     }
   ],
-  "events": [
-    {
-      "kind": "achievement",
-      "subject": "daily-grinder",
-      "from": "0",
-      "to": "1",
-      "at": "2026-11-03T22:16:56.578Z"
-    }
-  ],
+  "events": [],
   "achievements": [
     {
       "id": "pull-shark",
@@ -96,7 +88,7 @@
     {
       "id": "weekend-warrior",
       "tier": 0,
-      "value": 17
+      "value": 16
     },
     {
       "id": "gate-opener",
@@ -151,12 +143,12 @@
     {
       "id": "diligent",
       "tier": 1,
-      "value": 110
+      "value": 111
     },
     {
       "id": "daily-grinder",
       "tier": 1,
-      "value": 9
+      "value": 10
     },
     {
       "id": "perfect-week",
@@ -166,7 +158,7 @@
     {
       "id": "quest-hunter",
       "tier": 1,
-      "value": 70
+      "value": 73
     },
     {
       "id": "boss-slayer",
@@ -186,6 +178,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-10",
+        "cleared": 3,
+        "total": 3
+      },
       {
         "date": "2026-11-09",
         "cleared": 1,
@@ -357,10 +354,10 @@
         "total": 3
       }
     ],
-    "perfectDays": 9,
-    "run": 0,
+    "perfectDays": 10,
+    "run": 1,
     "bestRun": 3,
-    "questsDone": 70,
+    "questsDone": 73,
     "bosses": [
       "2026-11-02",
       "2026-10-26",
@@ -379,5 +376,5 @@
       "commit"
     ]
   },
-  "syncedAt": "2026-11-10T00:40:16.310Z"
+  "syncedAt": "2026-11-10T22:20:23.459Z"
 }
