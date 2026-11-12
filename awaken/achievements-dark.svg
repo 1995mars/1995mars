@@ -229,7 +229,7 @@
 <use href="#i-calendar" x="445" y="432" width="20" height="20" fill="#c2d1e0"/>
 <text x="485" y="434" class="strong" fill="#c2d1e0">Diligent</text>
 <path transform="translate(442 470)" d="M0 3 3 0 6 3 3 6Z" fill="#00b4d8"/><path transform="translate(452 470)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/><path transform="translate(462 470)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/>
-<text x="485" y="453" class="caption" fill="#c2d1e0">112 / 150</text>
+<text x="485" y="453" class="caption" fill="#c2d1e0">113 / 150</text>
 <text x="485" y="469" class="code" fill="#718da9">ACTIVE DAYS</text>
 </g>
 <g>
@@ -259,7 +259,7 @@
 <use href="#i-scroll" x="242.5" y="508" width="20" height="20" fill="#c2d1e0"/>
 <text x="282.5" y="510" class="strong" fill="#c2d1e0">Quest Hunter</text>
 <path transform="translate(239.5 546)" d="M0 3 3 0 6 3 3 6Z" fill="#00b4d8"/><path transform="translate(249.5 546)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/><path transform="translate(259.5 546)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/>
-<text x="282.5" y="529" class="caption" fill="#c2d1e0">76 / 250</text>
+<text x="282.5" y="529" class="caption" fill="#c2d1e0">77 / 250</text>
 <text x="282.5" y="545" class="code" fill="#718da9">QUESTS CLEARED</text>
 </g>
 <g>
@@ -269,7 +269,7 @@
 <use href="#i-boss" x="445" y="508" width="20" height="20" fill="#c2d1e0"/>
 <text x="485" y="510" class="strong" fill="#c2d1e0">Boss Slayer</text>
 <path transform="translate(442 546)" d="M0 3 3 0 6 3 3 6Z" fill="#00b4d8"/><path transform="translate(452 546)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/><path transform="translate(462 546)" d="M0 3 3 0 6 3 3 6Z" fill="#1d2936"/>
-<text x="485" y="529" class="caption" fill="#c2d1e0">5 / 10</text>
+<text x="485" y="529" class="caption" fill="#c2d1e0">6 / 10</text>
 <text x="485" y="545" class="code" fill="#718da9">WEEKLY BOSSES</text>
 </g>
 <g>
@@ -292,5 +292,5 @@
 <text x="80" y="605" class="caption" fill="#c2d1e0">7 / 10</text>
 <text x="80" y="621" class="code" fill="#718da9">QUEST KINDS</text>
 </g>
-<text x="820" y="646" class="code" fill="#718da9" text-anchor="end">@1995mars · SYNCED 2026-11-11</text>
+<text x="820" y="646" class="code" fill="#718da9" text-anchor="end">@1995mars · SYNCED 2026-11-12</text>
 </svg>
